@@ -20,7 +20,7 @@ Team entry for the **2026 RTX Ignite Design Challenge**: a portable detection an
 |---|---|
 | [`ML Files/`](ML%20Files) | Simulator, trained behavior model, data, studies and results. Start with [`ML Files/README.md`](ML%20Files/README.md). |
 | [`CAD Files/`](CAD%20Files) | FreeCAD models (`.FCStd`) of both kits, the deployment cases, the command post kit, and Kyle Field with the kits installed, plus rendered images in `Renders/`. |
-| [`Coverage Maps/`](Coverage%20Maps) | Radar line-of-sight site survey image (the survey code is in `ML Files/site_survey/`). |
+| [`Coverage Maps/`](Coverage%20Maps) | Interactive coverage viewer (download `Kyle_Field_v9_Coverage_Viewer.html` and open it in a browser), RF / camera envelope map (PNG and SVG), and the radar line-of-sight site survey image. See `README_Revised.txt` for the viewer's assumptions; the survey code is in `ML Files/site_survey/`. |
 | [`3D Simulation Files/`](3D%20Simulation%20Files) | Interactive demo. Download `cuas_demo.html` and open it in Chrome. |
 | [`Figures/`](Figures) | System architecture and geofenced response decision-flow figures (PNG and PDF). |
 
