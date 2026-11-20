@@ -1,0 +1,29 @@
+=== STRESS
+tracks 2915, encounters 790
+                          traffic  encounters simulated  P(threat alarm)  P(operator notified)  typical per game  threat alarms per game (typical)
+                  Approved drones                   134            0.022                 0.321                 6                             0.134
+              Approved light show                    20            0.000                 0.050                 1                             0.000
+       Balloons, kites, fireworks                    67            0.000                 0.015                 3                             0.000
+                            Birds                   120            0.075                 0.875                60                             4.500
+ Birds and bats at night (lights)                    60            0.167                 0.667                10                             1.667
+                  Crewed aircraft                   100            0.000                 0.000                10                             0.000
+Hobbyist (careless, unauthorized)                   209            0.349                   NaN                10                             3.493
+                 Military flyover                    20            0.000                 0.000                 1                             0.000
+   Phone hotspot / insect at lens                    60            0.000                 0.267                20                             0.000
+
+Expected per game (low / typical / high traffic):
+  false THREAT alarms on authorized or non-drone traffic: 1.5 / 6.3 / 22.0
+  operator notified about authorized or non-drone traffic: 19.5 / 66.5 / 222.6
+  careless hobbyists escalated to THREAT (over-escalation): 1.7 / 3.5 / 8.7
+                                    n  brief  linger
+cat                                                 
+Approved drones                   134  0.112   0.209
+Approved light show                20  0.050   0.000
+Balloons, kites, fireworks         67  0.015   0.000
+Birds                             120  0.308   0.567
+Birds and bats at night (lights)   60  0.483   0.183
+Crewed aircraft                   100  0.000   0.000
+Military flyover                   20  0.000   0.000
+Phone hotspot / insect at lens     60  0.167   0.100
+benign notifications per game (low / typical / high): brief 7.2 / 27.4 / 92.8, lingering >15 s 12.3 / 39.1 / 129.8
+STDONE

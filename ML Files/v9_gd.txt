@@ -1,0 +1,43 @@
+905 fresh benign cases
+0 of 905
+100 of 905
+200 of 905
+300 of 905
+400 of 905
+500 of 905
+600 of 905
+700 of 905
+800 of 905
+900 of 905
+tracks 2915, encounters 790
+                          traffic  encounters simulated  P(threat alarm)  P(operator notified)  typical per game  threat alarms per game (typical)
+                  Approved drones                   134            0.022                 0.321                 6                             0.134
+              Approved light show                    20            0.000                 0.050                 1                             0.000
+       Balloons, kites, fireworks                    67            0.000                 0.015                 3                             0.000
+                            Birds                   120            0.000                 0.650                60                             0.000
+ Birds and bats at night (lights)                    60            0.033                 0.233                10                             0.333
+                  Crewed aircraft                   100            0.000                 0.000                10                             0.000
+Hobbyist (careless, unauthorized)                   209            0.349                   NaN                10                             3.493
+                 Military flyover                    20            0.000                 0.000                 1                             0.000
+   Phone hotspot / insect at lens                    60            0.000                 0.267                20                             0.000
+
+Expected per game (low / typical / high traffic):
+  false THREAT alarms on authorized or non-drone traffic: 0.0 / 0.5 / 1.7
+  operator notified about authorized or non-drone traffic: 15.0 / 48.7 / 160.3
+  careless hobbyists escalated to THREAT (over-escalation): 1.7 / 3.5 / 8.7
+                                    n  brief  linger
+cat                                                 
+Approved drones                   134  0.112   0.209
+Approved light show                20  0.050   0.000
+Balloons, kites, fireworks         67  0.015   0.000
+Birds                             120  0.467   0.183
+Birds and bats at night (lights)   60  0.183   0.050
+Crewed aircraft                   100  0.000   0.000
+Military flyover                   20  0.000   0.000
+Phone hotspot / insect at lens     60  0.167   0.100
+benign notifications per game (low / typical / high): brief 10.4 / 33.9 / 112.5, lingering >15 s 4.6 / 14.8 / 47.8
+threat tracks: 840 (400 cases)
+without threat ALARM ever: 95.4% | operator alerted ever: 99.0% | outside threats that reach the bowl: alarm before arrival 100.0%, warning from alarm median 88 s (10th pct 48 s), from first alert median 88 s
+with    threat ALARM ever: 90.5% | operator alerted ever: 99.0% | outside threats that reach the bowl: alarm before arrival 99.0%, warning from alarm median 81 s (10th pct 40 s), from first alert median 88 s
+with the watch tier: operator notified before arrival 100.0%, warning from notification median 88 s (10th pct 49 s); notified at some point 98.7% of all threat tracks
+GDHALF

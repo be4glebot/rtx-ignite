@@ -1,0 +1,86 @@
+scenario_id,group,scenario_name,expected_label,expected_response,cases
+1,A,Delivery drone on filed corridor outside restricted zone,authorized,log_only,45
+2,A,Delivery drone detouring around weather or traffic,authorized,log_only,45
+3,A,Broadcast drone inside approved box over field,authorized,log_only,45
+4,A,Police or security drone on patrol,authorized,log_only,45
+5,A,Halftime drone light show (approved),authorized,log_only,45
+6,A,Approved campus research flight nearby,authorized,log_only,45
+7,A,Crewed aircraft (medical helicopter or TV aircraft),authorized,filter_out,45
+8,A,Pregame military flyover,authorized,filter_out,45
+9,B,Bird flock crossing the stadium,non_drone,filter_out,45
+10,B,Single large bird circling,non_drone,filter_out,45
+11,B,Birds or bats around the lights at night,non_drone,filter_out,45
+12,B,Balloons released by fans,non_drone,filter_out,45
+13,B,Fireworks or pyrotechnics,non_drone,filter_out,45
+14,B,Kite or drifting debris,non_drone,filter_out,45
+15,B,Phone hotspot or Wi-Fi device resembling a drone signal,non_drone,filter_out,45
+16,B,Insects close to a camera lens,non_drone,filter_out,45
+17,C,"Hobbyist hovering over a lot, filming from outside",unauthorized_careless,dispatch_police_to_pilot,45
+18,C,Hobbyist flying over the bowl for video,unauthorized_careless,alert_operator,295
+19,C,Toy drone flown low at a tailgate,unauthorized_careless,dispatch_police_to_pilot,45
+20,C,Older drone with control link but no Remote ID,unauthorized_careless,dispatch_police_to_pilot,45
+21,C,Unlicensed photographer shooting the crowd,unauthorized_careless,dispatch_police_to_pilot,145
+22,C,"Tourist flying 2 km out, unaware of restriction",unauthorized_careless,monitor,45
+23,C,Fast racing-style drone flown for fun nearby,unauthorized_careless,dispatch_police_to_pilot,45
+24,D,Lost-link drone flying home across the stadium,borderline,alert_operator,295
+25,C,Protest drone towing a banner,unauthorized_careless,alert_operator,45
+26,D,Authorized delivery drone drifting off route toward stadium,borderline,alert_operator,195
+27,D,Delivery drone with brief position glitch,borderline,monitor,45
+28,D,Approved flight at the wrong time,borderline,alert_operator,45
+29,D,Authorized drone above its approved altitude,borderline,monitor,45
+30,D,"Drone loitering at edge of restricted zone, repeatedly",borderline,alert_operator,45
+31,D,Drone hovering at distance watching security positions,borderline,alert_operator,45
+32,D,Drone approaches then turns back (probing),borderline,alert_operator,295
+33,D,Small mismatch between reported and radar position,borderline,monitor,45
+34,D,"Radio-silent drone passing by, not toward stadium",borderline,alert_operator,45
+35,D,Two unrelated hobbyists flying close together,borderline,dispatch_police_to_pilot,45
+36,C,Hobbyist drone whose camera gimbal could be mistaken for a payload,unauthorized_careless,dispatch_police_to_pilot,195
+37,D,Unlit drone at night,borderline,alert_operator,45
+38,D,Authorized drone with failing battery descending over stands,borderline,priority_alert,195
+39,E,Radio-silent drone on fast direct approach,threat,priority_alert,45
+40,E,Low approach hugging buildings and trees,threat,priority_alert,45
+41,E,High approach then steep dive,threat,priority_alert,245
+42,E,Payload-carrying drone hovering over stands,threat,priority_alert,295
+43,E,Payload dropped over the crowd,threat,priority_alert,195
+44,E,"Launch from adjacent lot, over the rim in seconds",threat,priority_alert,45
+45,E,Launch from inside the stadium,threat,priority_alert,45
+46,E,Cloned Remote ID of an authorized drone,threat,priority_alert,195
+47,E,Hijacked broadcast drone leaving its box,threat,priority_alert,345
+48,E,Drone with falsified position,threat,priority_alert,45
+49,E,"Decoy on one side, real drone from the other",threat,priority_alert,45
+50,E,Spotter loitering while a second drone attacks,threat,priority_alert,45
+51,E,Swarm converging from several directions,threat,priority_alert,45
+52,E,Swarm in formation that splits near the stadium,threat,priority_alert,45
+53,E,Drones arriving in staggered waves,threat,priority_alert,45
+54,E,Attack timed to the flyover,threat,priority_alert,45
+55,E,Attack on the tailgate area before the game,threat,priority_alert,45
+56,E,Attack on the crowd leaving after the game,threat,priority_alert,45
+57,E,Fast fixed-wing drone,threat,priority_alert,45
+58,E,Drone releasing powder or leaflets,threat,priority_alert,295
+68,G,Light show drones arriving in staggered waves to staging (approved),authorized,log_only,45
+69,G,Approved drone making a fast direct pass over the bowl (planned shot),authorized,log_only,45
+70,G,Police drone diving fast toward an incident (authorized),authorized,log_only,45
+71,G,Approved ceremonial delivery flying straight into the bowl,authorized,log_only,45
+72,G,Approved camera drone hovering over the stands,authorized,log_only,45
+73,G,Approved broadcaster formation of several drones,authorized,log_only,45
+74,G,Delivery-style corridor flight that is not on the approved list,borderline,alert_operator,45
+75,G,Light-show-style formation that is not scheduled,threat,priority_alert,45
+76,G,Extra unlisted drone hiding inside the approved light show,threat,priority_alert,295
+77,G,Approved light show drone leaving formation toward the stands,borderline,priority_alert,245
+79,D,"Drone approaches, loiters near the edge, then leaves",borderline,alert_operator,245
+80,E,Hijacked security drone leaving its patrol box,threat,priority_alert,245
+78,G,Patrol-style orbit by a drone not on the approved list,borderline,alert_operator,45
+59,F,One radar offline,same as underlying scenario,same as underlying scenario,60
+60,F,RF sensor jammed or flooded,same as underlying scenario,same as underlying scenario,60
+61,F,Camera blinded by sun or lights,same as underlying scenario,same as underlying scenario,60
+62,F,Heavy rain degrading cameras,same as underlying scenario,same as underlying scenario,60
+63,F,Sensors disagree on position,same as underlying scenario,same as underlying scenario,60
+64,F,Pod lost network link,same as underlying scenario,same as underlying scenario,60
+65,F,Ten or more hobbyists at once,same as underlying scenario,same as underlying scenario,60
+66,F,"Two drones cross, tracks may swap",same as underlying scenario,same as underlying scenario,60
+67,F,Drone hidden behind stands from most sensors,same as underlying scenario,same as underlying scenario,60
+84,F,Fog,same as underlying scenario,same as underlying scenario,60
+85,F,Heavy RF interference,same as underlying scenario,same as underlying scenario,60
+86,F,Two cameras down,same as underlying scenario,same as underlying scenario,60
+87,F,Several objects arriving together,same as underlying scenario,same as underlying scenario,60
+88,F,A whole sensor type switched off,same as underlying scenario,same as underlying scenario,60

@@ -1,0 +1,16 @@
+
+test (seen types): 11402 snapshots, 1236 cases
+true label                    n  rules alarm %  model alarm %
+threat                     4687           51.5           51.1
+borderline                 1890           28.3            4.8
+unauthorized_careless      1448           68.7            7.2
+authorized                 2575            0.3            0.0
+non_drone                   802            4.5            0.0
+
+held-out types: 4540 snapshots, 527 cases
+true label                    n  rules alarm %  model alarm %
+threat                     2841           56.0           54.2
+borderline                  833           59.9           11.5
+unauthorized_careless       197           34.0           31.5
+authorized                  357            0.0            0.0
+non_drone                   312            0.0            0.0

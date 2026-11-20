@@ -1,0 +1,96 @@
+model: avg ['RandomForestClassifier', 'HistGradientBoostingClassifier']
+
+== TEST (seen scenario types, unseen cases): 11402 rows, 1236 cases, accuracy 0.921
+                       author  non_dr  unauth  border  threat
+authorized               2532       0       0      42       1
+non_drone                   0     795       1       0       6
+unauthorized_careless       0       4    1254      14     176
+borderline                 42       0      68    1553     227
+threat                     17       4     157     137    4372
+
+== HELD-OUT scenario types: 4540 rows, 527 cases, accuracy 0.764
+                       author  non_dr  unauth  border  threat
+authorized                328       0       0      29       0
+non_drone                   0     209       0      41      62
+unauthorized_careless       0       0      18       6     173
+borderline                  0       1     439     193     200
+threat                      0      36      59      24    2722
+                                   rows   acc               top_pred
+scenario_id label                                                   
+10          non_drone               312  0.67              non_drone
+22          unauthorized_careless   197  0.09                 threat
+31          borderline              420  0.23  unauthorized_careless
+43          threat                 1490  0.95                 threat
+52          threat                 1351  0.97                 threat
+70          authorized              357  0.92             authorized
+78          borderline              413  0.23  unauthorized_careless
+
+Top features:
+ manifest_dev_m        0.068
+max_manifest_dev_m    0.065
+rf_frac               0.048
+dist_m                0.046
+n_tracks              0.045
+n_near_150m           0.045
+min_dist_m            0.044
+alt_m                 0.043
+micro_doppler         0.042
+on_manifest           0.041
+manifest_time_ok      0.033
+speed_mps             0.031
+
+Threat recall by seconds since first detection:
+ checkpoint_s
+5     0.922
+10    0.931
+18    1.000
+20    0.940
+22    1.000
+23    0.667
+24    1.000
+25    0.500
+26    1.000
+27    0.333
+28    1.000
+29    1.000
+30    0.935
+31    0.800
+32    0.800
+33    0.800
+34    0.800
+35    0.750
+36    1.000
+37    1.000
+38    1.000
+39    1.000
+40    1.000
+41    0.833
+42    1.000
+43    1.000
+44    1.000
+45    0.925
+46    1.000
+47    1.000
+48    1.000
+49    1.000
+50    1.000
+51    1.000
+52    1.000
+54    1.000
+55    1.000
+59    1.000
+60    0.934
+90    0.949
+False threat alarms on authorized/non-drone rows: 0.0021
+
+Unfamiliarity score (1 - model confidence): seen types mean 0.109, held-out types mean 0.152, AUC held-out vs seen 0.624
+by held-out scenario: {10: 0.26, 22: 0.33, 31: 0.27, 43: 0.16, 52: 0.06, 70: 0.08, 78: 0.2}
+Unfamiliarity when the model is wrong 0.362 vs right 0.088 (test)
+Manifest deviation (m), median by label, for tracks on the manifest: {'authorized': 0.0, 'borderline': 9.0, 'threat': 104.0}
+
+Detection stats: undetected cases by label: {'authorized': 100, 'borderline': 428, 'non_drone': 7, 'threat': 42, 'unauthorized_careless': 25}
+Threat warning time, drones starting OUTSIDE: median 83 s, 10th pct 35 s, n=1233
+Threats starting INSIDE: 675 cases, detected 675, median detection delay 0 s
+undetected threat scenarios: {41: 17, 53: 9, 39: 7, 46: 2, 49: 2, 54: 2, 40: 1, 44: 1, 52: 1}
+undetected borderline: {32: 73, 26: 66, 27: 58, 30: 58, 34: 46, 74: 42, 37: 22, 33: 17, 29: 15, 79: 13, 28: 10, 24: 6, 78: 1, 31: 1}
+undetected authorized: {1: 55, 2: 45}

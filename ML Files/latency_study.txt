@@ -1,0 +1,4 @@
+features per track update: 0.6 ms | model, 1 track: 24 ms | model, 50 tracks in one batch: 32 ms
+first watch: reached in 99% of 337 threat tracks | seconds after first detection: median 3, 10th pct 3, 90th pct 15
+first alert: reached in 99% of 337 threat tracks | seconds after first detection: median 3, 10th pct 3, 90th pct 16
+first alarm: reached in 95% of 337 threat tracks | seconds after first detection: median 11, 10th pct 3, 90th pct 37

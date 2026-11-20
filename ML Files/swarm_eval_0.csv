@@ -1,0 +1,751 @@
+case_id,sid,n_fg,n_tracks,hostile,first,reach,flag_t,alarm_t,ids,cover,recognized,ind_alert,ind_alarm,any_flag,any_alarm,statuses
+SW-0001,51,12,12,True,29.0,212.0,201.0,201.0,1.0,0.17,201.0,51.0,51.0,1.0,1.0,hostile swarm
+SW-0002,51,12,12,True,138.0,237.0,211.0,211.0,1.0,0.29,211.0,145.0,180.0,1.0,1.0,hostile swarm
+SW-0003,51,12,12,True,0.0,220.0,181.0,181.0,1.0,0.17,181.0,3.0,3.0,1.0,1.0,hostile swarm
+SW-0004,51,12,12,True,49.0,,226.0,226.0,1.0,0.25,225.0,58.0,114.0,1.0,1.0,coordinated group|hostile swarm
+SW-0005,51,9,9,True,0.0,144.0,105.0,105.0,1.0,0.25,105.0,14.0,19.0,1.0,1.0,hostile swarm
+SW-0006,51,12,12,True,0.0,180.0,162.0,162.0,1.0,0.17,162.0,3.0,3.0,1.0,1.0,hostile swarm
+SW-0007,51,6,6,True,7.0,,,,0.0,0.0,,68.0,79.0,0.0,0.0,
+SW-0008,51,9,9,True,81.0,230.0,234.0,234.0,1.0,0.78,199.0,100.0,116.0,1.0,1.0,"coordinated, unconfirmed|hostile swarm"
+SW-0009,51,12,12,True,90.0,195.0,163.0,163.0,1.0,0.25,163.0,93.0,102.0,1.0,1.0,hostile swarm
+SW-0010,51,6,6,True,48.0,169.0,,,0.0,0.0,,62.0,62.0,0.0,0.0,
+SW-0011,51,12,12,True,0.0,86.0,27.0,27.0,1.0,0.22,27.0,3.0,9.0,1.0,1.0,hostile swarm
+SW-0012,51,8,8,True,0.0,140.0,87.0,87.0,1.0,0.25,87.0,3.0,5.0,1.0,1.0,hostile swarm
+SW-0013,51,12,12,True,0.0,141.0,119.0,119.0,1.0,0.17,119.0,3.0,3.0,1.0,1.0,hostile swarm
+SW-0014,51,7,7,True,22.0,155.0,149.0,149.0,2.0,0.29,149.0,41.0,54.0,1.0,1.0,hostile swarm
+SW-0015,51,12,12,True,0.0,146.0,108.0,108.0,1.0,0.17,108.0,3.0,3.0,1.0,1.0,hostile swarm
+SW-0016,51,5,5,True,39.0,,225.0,225.0,1.0,0.4,225.0,76.0,115.0,1.0,1.0,hostile swarm
+SW-0017,51,12,12,True,0.0,173.0,147.0,147.0,1.0,0.17,147.0,3.0,3.0,1.0,1.0,hostile swarm
+SW-0018,51,12,12,True,0.0,119.0,77.0,77.0,1.0,0.18,77.0,3.0,3.0,1.0,1.0,hostile swarm
+SW-0019,51,12,12,True,21.0,150.0,123.0,123.0,1.0,0.2,123.0,36.0,58.0,1.0,1.0,hostile swarm
+SW-0020,51,12,12,True,88.0,193.0,170.0,170.0,1.0,0.27,168.0,93.0,107.0,1.0,1.0,coordinated group|hostile swarm
+SW-0021,51,12,12,True,0.0,170.0,,,0.0,0.0,,8.0,13.0,0.0,0.0,
+SW-0022,51,12,12,True,0.0,203.0,168.0,168.0,1.0,0.17,168.0,3.0,3.0,1.0,1.0,hostile swarm
+SW-0023,51,12,12,True,0.0,127.0,74.0,74.0,1.0,0.18,74.0,3.0,5.0,1.0,1.0,hostile swarm
+SW-0024,51,12,12,True,46.0,203.0,191.0,191.0,2.0,0.17,191.0,66.0,66.0,1.0,1.0,hostile swarm
+SW-0025,51,12,12,True,0.0,160.0,143.0,143.0,1.0,0.17,143.0,12.0,16.0,1.0,1.0,hostile swarm
+SW-0026,51,3,3,True,0.0,100.0,96.0,96.0,1.0,0.67,96.0,3.0,3.0,1.0,1.0,hostile swarm
+SW-0027,51,12,12,True,0.0,131.0,67.0,67.0,1.0,0.17,67.0,3.0,3.0,1.0,1.0,hostile swarm
+SW-0028,51,8,8,True,160.0,,,,0.0,0.0,,168.0,177.0,0.0,0.0,
+SW-0029,51,12,12,True,0.0,146.0,112.0,112.0,2.0,0.17,112.0,3.0,3.0,1.0,1.0,hostile swarm
+SW-0030,51,12,12,True,39.0,231.0,201.0,201.0,1.0,0.17,201.0,55.0,57.0,1.0,1.0,hostile swarm
+SW-0031,51,10,10,True,0.0,119.0,55.0,55.0,1.0,0.2,55.0,3.0,10.0,1.0,1.0,hostile swarm
+SW-0032,51,12,12,True,29.0,189.0,173.0,173.0,2.0,0.17,173.0,43.0,43.0,1.0,1.0,hostile swarm
+SW-0033,51,12,12,True,0.0,175.0,162.0,162.0,2.0,0.33,162.0,21.0,28.0,1.0,1.0,hostile swarm
+SW-0034,51,9,9,True,0.0,64.0,38.0,38.0,1.0,0.25,38.0,3.0,3.0,1.0,1.0,hostile swarm
+SW-0035,51,2,2,True,74.0,,,,0.0,0.0,,97.0,,0.0,0.0,
+SW-0036,51,12,12,True,0.0,121.0,77.0,77.0,1.0,0.36,72.0,3.0,3.0,1.0,1.0,"coordinated group|coordinated, unconfirmed|hostile swarm"
+SW-0037,51,12,12,True,0.0,127.0,88.0,88.0,1.0,0.17,88.0,3.0,3.0,1.0,1.0,hostile swarm
+SW-0038,51,12,12,True,0.0,120.0,80.0,80.0,1.0,0.17,80.0,3.0,8.0,1.0,1.0,hostile swarm
+SW-0039,51,12,12,True,0.0,62.0,37.0,37.0,1.0,0.17,37.0,3.0,3.0,1.0,1.0,hostile swarm
+SW-0040,51,6,6,True,31.0,200.0,175.0,175.0,2.0,0.33,175.0,56.0,56.0,1.0,1.0,hostile swarm
+SW-0041,52,6,6,True,0.0,121.0,85.0,94.0,2.0,0.67,85.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0042,52,12,12,True,0.0,166.0,46.0,51.0,1.0,0.44,42.0,3.0,20.0,1.0,1.0,coordinated group|hostile swarm|suspicious formation
+SW-0043,52,9,9,True,169.0,,223.0,223.0,1.0,0.86,212.0,179.0,216.0,1.0,1.0,coordinated group|hostile swarm
+SW-0044,52,12,12,True,13.0,229.0,133.0,136.0,1.0,0.89,127.0,31.0,111.0,1.0,1.0,"coordinated group|coordinated, unconfirmed|hostile swarm|suspicious formation"
+SW-0045,52,6,6,True,57.0,,,,0.0,0.0,239.0,74.0,74.0,0.0,0.0,"coordinated, unconfirmed"
+SW-0046,52,12,12,True,0.0,128.0,46.0,56.0,1.0,0.25,24.0,3.0,3.0,1.0,1.0,"coordinated, unconfirmed|hostile swarm|suspicious formation"
+SW-0047,52,11,11,True,0.0,,99.0,212.0,5.0,0.27,99.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0048,52,12,12,True,0.0,,196.0,237.0,3.0,0.25,196.0,11.0,19.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0049,52,12,12,True,0.0,190.0,159.0,165.0,1.0,0.25,159.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0050,52,12,12,True,0.0,132.0,47.0,66.0,1.0,0.33,47.0,3.0,4.0,1.0,1.0,coordinated group|hostile swarm|suspicious formation
+SW-0051,52,12,12,True,0.0,159.0,43.0,54.0,1.0,0.27,43.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0052,52,10,10,True,0.0,127.0,27.0,36.0,1.0,0.4,27.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0053,52,12,12,True,0.0,114.0,63.0,72.0,1.0,0.44,63.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0054,52,3,3,True,0.0,220.0,165.0,174.0,2.0,1.0,165.0,3.0,7.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0055,52,12,12,True,0.0,,80.0,89.0,1.0,0.43,80.0,3.0,22.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0056,52,10,10,True,0.0,90.0,37.0,46.0,1.0,0.3,37.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0057,52,7,7,True,199.0,,,,0.0,0.0,235.0,202.0,223.0,0.0,0.0,coordinated group
+SW-0058,52,12,12,True,0.0,135.0,76.0,85.0,1.0,0.33,76.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0059,52,4,4,True,9.0,,235.0,,1.0,0.75,234.0,17.0,17.0,1.0,0.0,"coordinated, unconfirmed|suspicious formation"
+SW-0060,52,6,6,True,0.0,159.0,62.0,71.0,1.0,0.8,62.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0061,52,12,12,True,47.0,210.0,101.0,139.0,2.0,1.0,101.0,58.0,91.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0062,52,0,0,True,,,,,,,,,,,,
+SW-0063,52,10,10,True,0.0,,101.0,101.0,1.0,0.89,81.0,3.0,3.0,1.0,1.0,"coordinated group|coordinated, unconfirmed|hostile swarm"
+SW-0064,52,4,4,True,0.0,98.0,79.0,88.0,1.0,0.75,79.0,3.0,11.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0065,52,5,5,True,0.0,126.0,89.0,98.0,1.0,0.6,89.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0066,52,5,5,True,0.0,82.0,61.0,67.0,1.0,0.6,61.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0067,52,11,11,True,7.0,,,,0.0,0.0,238.0,172.0,223.0,0.0,0.0,coordinated group
+SW-0068,52,8,8,True,0.0,196.0,104.0,113.0,1.0,0.43,104.0,7.0,7.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0069,52,12,12,True,0.0,,164.0,176.0,1.0,0.25,164.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0070,52,12,12,True,93.0,180.0,127.0,127.0,1.0,0.7,111.0,96.0,113.0,1.0,1.0,"coordinated group|coordinated, unconfirmed|hostile swarm"
+SW-0071,52,12,12,True,8.0,190.0,121.0,128.0,1.0,0.4,119.0,11.0,13.0,1.0,1.0,"coordinated, unconfirmed|hostile swarm|suspicious formation"
+SW-0072,52,12,12,True,0.0,87.0,24.0,33.0,1.0,0.36,24.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0073,52,12,12,True,0.0,121.0,34.0,43.0,1.0,0.25,34.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0074,52,12,12,True,0.0,109.0,23.0,29.0,1.0,0.25,20.0,3.0,3.0,1.0,1.0,coordinated group|hostile swarm|suspicious formation
+SW-0075,52,12,12,True,39.0,218.0,121.0,130.0,1.0,0.3,92.0,46.0,105.0,1.0,1.0,"coordinated group|coordinated, unconfirmed|hostile swarm|suspicious formation"
+SW-0076,52,7,7,True,77.0,,165.0,174.0,1.0,0.75,165.0,81.0,148.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0077,52,12,12,True,2.0,156.0,92.0,101.0,1.0,0.38,92.0,13.0,15.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0078,52,12,12,True,0.0,85.0,21.0,26.0,1.0,0.55,17.0,3.0,3.0,1.0,1.0,"coordinated group|coordinated, unconfirmed|hostile swarm|suspicious formation"
+SW-0079,52,9,9,True,122.0,,161.0,161.0,1.0,1.0,144.0,134.0,151.0,1.0,1.0,"coordinated group|coordinated, unconfirmed|hostile swarm"
+SW-0080,52,12,12,True,0.0,152.0,63.0,63.0,1.0,0.6,48.0,3.0,3.0,1.0,1.0,coordinated group|hostile swarm
+SW-0081,53,12,12,True,29.0,205.0,121.0,144.0,2.0,0.43,121.0,49.0,89.0,1.0,1.0,coordinated group|hostile swarm|suspicious formation
+SW-0082,53,11,11,True,29.0,191.0,134.0,142.0,1.0,0.5,133.0,100.0,129.0,1.0,1.0,coordinated group|hostile swarm|suspicious formation
+SW-0083,53,12,12,True,46.0,178.0,143.0,152.0,2.0,0.25,143.0,55.0,57.0,1.0,1.0,"coordinated, unconfirmed|hostile swarm|suspicious formation"
+SW-0084,53,8,8,True,0.0,117.0,70.0,79.0,3.0,0.38,70.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0085,53,12,12,True,0.0,153.0,138.0,148.0,3.0,0.25,138.0,3.0,3.0,1.0,1.0,"coordinated, unconfirmed|hostile swarm|suspicious formation"
+SW-0086,53,7,7,True,6.0,174.0,101.0,109.0,2.0,0.57,100.0,60.0,85.0,1.0,1.0,coordinated group|hostile swarm|suspicious formation
+SW-0087,53,12,12,True,0.0,158.0,139.0,152.0,3.0,0.3,139.0,3.0,5.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0088,53,12,12,True,5.0,,,,0.0,0.0,,17.0,17.0,0.0,0.0,
+SW-0089,53,9,9,True,0.0,100.0,19.0,28.0,2.0,0.75,19.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0090,53,12,12,True,0.0,117.0,102.0,121.0,4.0,0.38,102.0,3.0,8.0,1.0,1.0,"coordinated, unconfirmed|hostile swarm|suspicious formation"
+SW-0091,53,8,8,True,154.0,,,,0.0,0.0,,163.0,163.0,0.0,0.0,
+SW-0092,53,12,12,True,0.0,102.0,128.0,128.0,3.0,0.2,128.0,3.0,3.0,1.0,1.0,hostile swarm
+SW-0093,53,4,4,True,89.0,,,,0.0,0.0,,103.0,107.0,0.0,0.0,
+SW-0094,53,12,12,True,0.0,110.0,176.0,176.0,1.0,0.17,176.0,3.0,3.0,1.0,1.0,hostile swarm
+SW-0095,53,12,12,True,0.0,136.0,68.0,68.0,1.0,0.57,59.0,4.0,10.0,1.0,1.0,coordinated group|hostile swarm
+SW-0096,53,12,12,True,31.0,,223.0,232.0,1.0,0.25,223.0,36.0,36.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0097,53,5,5,True,0.0,113.0,91.0,91.0,2.0,0.6,91.0,3.0,3.0,1.0,1.0,hostile swarm
+SW-0098,53,12,12,True,0.0,143.0,110.0,110.0,1.0,0.38,110.0,6.0,30.0,1.0,1.0,hostile swarm
+SW-0099,53,12,12,True,0.0,124.0,105.0,114.0,2.0,0.25,105.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0100,53,11,11,True,71.0,212.0,161.0,168.0,2.0,0.67,159.0,83.0,133.0,1.0,1.0,coordinated group|hostile swarm|suspicious formation
+SW-0101,53,4,4,True,12.0,164.0,131.0,140.0,1.0,0.75,131.0,24.0,24.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0102,53,12,12,True,0.0,143.0,22.0,31.0,1.0,0.33,22.0,7.0,12.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0103,53,12,12,True,107.0,,,,0.0,0.0,,118.0,122.0,0.0,0.0,
+SW-0104,53,6,6,True,100.0,,,,0.0,0.0,,112.0,112.0,0.0,0.0,
+SW-0105,53,7,7,True,0.0,156.0,148.0,157.0,1.0,0.43,148.0,3.0,4.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0106,53,10,10,True,0.0,133.0,115.0,124.0,2.0,0.3,115.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0107,53,12,12,True,97.0,,,,0.0,0.0,,107.0,111.0,0.0,0.0,
+SW-0108,53,8,8,True,124.0,,,,0.0,0.0,,152.0,161.0,0.0,0.0,
+SW-0109,53,12,12,True,28.0,229.0,228.0,237.0,1.0,0.25,228.0,44.0,52.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0110,53,12,12,True,129.0,191.0,173.0,173.0,2.0,0.33,152.0,138.0,160.0,1.0,1.0,"coordinated group|coordinated, unconfirmed|hostile swarm"
+SW-0111,53,12,12,True,23.0,187.0,133.0,142.0,1.0,0.25,133.0,34.0,34.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0112,53,2,2,True,231.0,,,,0.0,0.0,,234.0,,0.0,0.0,
+SW-0113,53,12,12,True,27.0,,,,0.0,0.0,,32.0,32.0,0.0,0.0,
+SW-0114,53,9,9,True,46.0,202.0,202.0,202.0,1.0,0.33,202.0,55.0,60.0,1.0,1.0,hostile swarm
+SW-0115,53,7,7,True,100.0,,,,0.0,0.0,,133.0,182.0,0.0,0.0,
+SW-0116,53,12,12,True,73.0,,,,0.0,0.0,,108.0,111.0,0.0,0.0,
+SW-0117,53,12,12,True,34.0,200.0,203.0,203.0,1.0,0.25,203.0,46.0,46.0,1.0,1.0,hostile swarm
+SW-0118,53,12,12,True,0.0,66.0,26.0,35.0,2.0,0.75,26.0,3.0,10.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0119,53,12,12,True,0.0,,138.0,185.0,3.0,0.25,138.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0120,53,12,12,True,65.0,172.0,122.0,139.0,2.0,0.5,122.0,69.0,85.0,1.0,1.0,"coordinated, unconfirmed|hostile swarm|suspicious formation"
+SW-0121,75,12,12,True,0.0,,81.0,119.0,1.0,0.57,74.0,3.0,3.0,1.0,1.0,coordinated group|hostile swarm|hostile swarm (forming)|suspicious formation
+SW-0122,75,12,12,True,0.0,,31.0,51.0,2.0,0.25,31.0,3.0,3.0,1.0,1.0,hostile swarm|hostile swarm (forming)|suspicious formation
+SW-0123,75,12,12,True,0.0,173.0,53.0,62.0,1.0,0.38,53.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0124,75,12,12,True,0.0,,70.0,150.0,1.0,0.67,62.0,3.0,3.0,1.0,1.0,"coordinated group|coordinated, unconfirmed|hostile swarm|hostile swarm (forming)|suspicious formation"
+SW-0125,75,12,12,True,0.0,74.0,15.0,24.0,1.0,0.42,15.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0126,75,12,12,True,0.0,,100.0,229.0,4.0,0.25,100.0,3.0,3.0,1.0,1.0,hostile swarm|hostile swarm (forming)|suspicious formation
+SW-0127,75,12,12,True,0.0,139.0,15.0,24.0,1.0,0.83,15.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0128,75,12,12,True,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0129,75,12,12,True,0.0,,17.0,112.0,1.0,0.44,17.0,3.0,7.0,1.0,1.0,hostile swarm|hostile swarm (forming)|suspicious formation
+SW-0130,75,12,12,True,0.0,154.0,15.0,24.0,3.0,0.83,15.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0131,75,12,12,True,0.0,172.0,56.0,82.0,2.0,0.75,56.0,3.0,3.0,1.0,1.0,coordinated group|hostile swarm|suspicious formation
+SW-0132,75,12,12,True,0.0,,15.0,24.0,1.0,0.58,15.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0133,75,12,12,True,0.0,,15.0,123.0,5.0,0.25,15.0,3.0,3.0,1.0,1.0,hostile swarm|hostile swarm (forming)|suspicious formation
+SW-0134,75,12,12,True,0.0,,161.0,194.0,3.0,0.25,161.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0135,75,12,12,True,0.0,122.0,15.0,24.0,1.0,0.83,15.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0136,75,12,12,True,0.0,,172.0,192.0,1.0,0.25,172.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0137,75,12,12,True,0.0,,88.0,97.0,3.0,0.38,88.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0138,75,12,12,True,0.0,,90.0,104.0,2.0,0.25,90.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0139,75,12,12,True,0.0,,28.0,178.0,1.0,0.3,28.0,3.0,6.0,1.0,1.0,hostile swarm|hostile swarm (forming)|suspicious formation
+SW-0140,75,12,12,True,0.0,,26.0,78.0,1.0,0.5,26.0,3.0,3.0,1.0,1.0,coordinated group|hostile swarm|hostile swarm (forming)|suspicious formation
+SW-0141,75,12,12,True,0.0,,58.0,220.0,5.0,0.25,58.0,3.0,3.0,1.0,1.0,hostile swarm|hostile swarm (forming)|suspicious formation
+SW-0142,75,12,12,True,0.0,,33.0,76.0,5.0,0.25,33.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0143,75,12,12,True,0.0,189.0,122.0,131.0,1.0,0.33,122.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0144,75,6,6,True,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0145,75,12,12,True,0.0,,53.0,163.0,2.0,0.43,53.0,3.0,9.0,1.0,1.0,"coordinated group|coordinated, unconfirmed|hostile swarm|hostile swarm (forming)|suspicious formation"
+SW-0146,75,8,8,True,0.0,,148.0,,1.0,0.5,148.0,3.0,3.0,1.0,0.0,hostile swarm (forming)|suspicious formation
+SW-0147,75,12,12,True,0.0,132.0,17.0,26.0,1.0,0.42,17.0,3.0,10.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0148,75,12,12,True,0.0,86.0,15.0,24.0,1.0,0.75,15.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0149,75,12,12,True,0.0,135.0,15.0,24.0,1.0,0.33,15.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0150,75,12,12,True,0.0,162.0,15.0,24.0,4.0,0.33,15.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0151,81,7,7,True,161.0,,203.0,206.0,1.0,0.67,197.0,176.0,199.0,1.0,1.0,coordinated group|hostile swarm|suspicious formation
+SW-0152,81,6,6,True,49.0,,213.0,227.0,1.0,0.5,213.0,56.0,57.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0153,81,6,6,True,0.0,,70.0,79.0,1.0,0.5,70.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0154,81,8,8,True,0.0,,171.0,180.0,2.0,0.5,171.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0155,81,5,5,True,14.0,,,,0.0,0.0,,35.0,35.0,0.0,0.0,
+SW-0156,81,7,7,True,144.0,,186.0,189.0,1.0,0.83,180.0,150.0,174.0,1.0,1.0,"coordinated group|coordinated, unconfirmed|hostile swarm|suspicious formation"
+SW-0157,81,7,7,True,97.0,,,,0.0,0.0,,113.0,115.0,0.0,0.0,
+SW-0158,81,4,4,True,107.0,,,,0.0,0.0,,120.0,120.0,0.0,0.0,
+SW-0159,81,5,5,True,43.0,,133.0,151.0,1.0,0.6,132.0,53.0,89.0,1.0,1.0,"coordinated group|coordinated, unconfirmed|hostile swarm|suspicious formation"
+SW-0160,81,5,5,True,107.0,,151.0,160.0,1.0,0.6,151.0,130.0,150.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0161,81,4,4,True,150.0,,229.0,239.0,1.0,0.75,208.0,177.0,214.0,1.0,1.0,coordinated group|hostile swarm|suspicious formation
+SW-0162,81,4,4,True,7.0,,98.0,107.0,3.0,0.75,98.0,25.0,64.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0163,81,5,5,True,46.0,,130.0,132.0,1.0,1.0,109.0,66.0,103.0,1.0,1.0,"coordinated group|coordinated, unconfirmed|hostile swarm|suspicious formation"
+SW-0164,81,7,7,True,151.0,,188.0,196.0,1.0,0.67,187.0,164.0,181.0,1.0,1.0,"coordinated, unconfirmed|hostile swarm|suspicious formation"
+SW-0165,81,7,7,True,0.0,,111.0,120.0,1.0,0.43,111.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0166,81,3,3,True,0.0,,,,0.0,0.0,,10.0,10.0,0.0,0.0,
+SW-0167,81,4,4,True,63.0,,,,0.0,0.0,,80.0,80.0,0.0,0.0,
+SW-0168,81,4,4,True,173.0,,215.0,224.0,1.0,0.75,215.0,179.0,204.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0169,81,1,1,True,229.0,,,,0.0,0.0,,232.0,,0.0,0.0,
+SW-0170,81,5,5,True,0.0,,153.0,,2.0,0.6,153.0,7.0,7.0,1.0,0.0,suspicious formation
+SW-0171,81,8,8,True,61.0,,,,0.0,0.0,,69.0,72.0,0.0,0.0,
+SW-0172,81,6,6,True,149.0,,208.0,210.0,1.0,0.8,196.0,161.0,218.0,1.0,1.0,"coordinated group|coordinated, unconfirmed|hostile swarm|hostile swarm (forming)"
+SW-0173,81,7,7,True,0.0,,83.0,94.0,1.0,0.43,83.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0174,81,6,6,True,18.0,,,,0.0,0.0,,34.0,38.0,0.0,0.0,
+SW-0175,81,7,7,True,1.0,,190.0,201.0,1.0,0.43,190.0,5.0,50.0,1.0,1.0,hostile swarm|hostile swarm (forming)|suspicious formation
+SW-0176,81,3,3,True,162.0,,239.0,,1.0,1.0,239.0,166.0,215.0,1.0,0.0,suspicious formation
+SW-0177,81,6,6,True,38.0,,155.0,163.0,1.0,0.67,151.0,72.0,101.0,1.0,1.0,coordinated group|hostile swarm|suspicious formation
+SW-0178,81,7,7,True,0.0,,196.0,206.0,1.0,0.43,196.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0179,81,4,4,True,30.0,,220.0,,1.0,0.75,220.0,38.0,39.0,1.0,0.0,suspicious formation
+SW-0180,81,8,8,True,47.0,,,,0.0,0.0,,66.0,88.0,0.0,0.0,
+SW-0181,81,4,4,True,5.0,,131.0,135.0,1.0,0.75,126.0,64.0,131.0,1.0,1.0,coordinated group|hostile swarm|suspicious formation
+SW-0182,81,6,6,True,14.0,,192.0,201.0,1.0,0.67,192.0,18.0,18.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0183,81,5,5,True,0.0,,95.0,104.0,1.0,0.6,95.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0184,81,5,5,True,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0185,81,7,7,True,31.0,,76.0,85.0,1.0,0.8,76.0,35.0,68.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0186,81,6,6,True,75.0,,190.0,203.0,1.0,0.67,190.0,88.0,129.0,1.0,1.0,coordinated group|hostile swarm|suspicious formation
+SW-0187,81,7,7,True,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0188,81,0,0,True,,,,,,,,,,,,
+SW-0189,81,3,3,True,44.0,,202.0,,2.0,1.0,202.0,58.0,158.0,1.0,0.0,suspicious formation
+SW-0190,81,6,6,True,0.0,,222.0,,1.0,0.67,222.0,3.0,3.0,1.0,0.0,suspicious formation
+SW-0191,81,4,4,True,68.0,,129.0,138.0,2.0,1.0,129.0,75.0,106.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0192,81,5,5,True,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0193,81,3,3,True,44.0,,198.0,207.0,1.0,1.0,198.0,47.0,133.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0194,81,1,1,True,116.0,,,,0.0,0.0,,172.0,,0.0,0.0,
+SW-0195,81,5,5,True,17.0,,207.0,216.0,1.0,0.6,207.0,66.0,73.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0196,81,5,5,True,97.0,,123.0,132.0,1.0,0.75,123.0,121.0,132.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0197,81,6,6,True,92.0,,217.0,226.0,1.0,0.5,217.0,106.0,134.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0198,81,4,4,True,32.0,,104.0,113.0,1.0,1.0,104.0,36.0,68.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0199,81,6,6,True,102.0,,,,0.0,0.0,,143.0,143.0,0.0,0.0,
+SW-0200,81,3,3,True,62.0,,,,0.0,0.0,,78.0,78.0,0.0,0.0,
+SW-0201,81,8,8,True,127.0,,194.0,207.0,2.0,0.75,194.0,131.0,209.0,1.0,1.0,hostile swarm|hostile swarm (forming)|suspicious formation
+SW-0202,81,0,0,True,,,,,,,,,,,,
+SW-0203,81,8,8,True,39.0,,190.0,199.0,2.0,0.38,190.0,69.0,71.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0204,81,6,6,True,0.0,,220.0,233.0,1.0,0.5,220.0,5.0,8.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0205,81,7,7,True,37.0,,,,0.0,0.0,,52.0,65.0,0.0,0.0,
+SW-0206,81,2,2,True,139.0,,,,0.0,0.0,,173.0,233.0,0.0,0.0,
+SW-0207,81,4,4,True,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0208,81,3,3,True,79.0,,172.0,,1.0,1.0,172.0,96.0,104.0,1.0,0.0,suspicious formation
+SW-0209,81,6,6,True,77.0,,137.0,137.0,1.0,0.67,116.0,83.0,125.0,1.0,1.0,"coordinated group|coordinated, unconfirmed|hostile swarm|suspicious formation"
+SW-0210,81,5,5,True,0.0,,194.0,203.0,1.0,0.6,194.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0211,82,7,7,True,0.0,143.0,58.0,62.0,1.0,0.71,53.0,3.0,3.0,1.0,1.0,"coordinated, unconfirmed|hostile swarm|suspicious formation"
+SW-0212,82,5,5,True,0.0,118.0,57.0,66.0,1.0,0.6,57.0,3.0,19.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0213,82,5,5,True,0.0,122.0,98.0,106.0,1.0,0.8,97.0,3.0,3.0,1.0,1.0,"coordinated, unconfirmed|hostile swarm|suspicious formation"
+SW-0214,82,8,8,True,0.0,113.0,53.0,73.0,2.0,0.75,53.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0215,82,4,4,True,0.0,112.0,20.0,29.0,2.0,0.75,20.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0216,82,4,4,True,0.0,104.0,27.0,36.0,2.0,0.75,27.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0217,82,5,5,True,14.0,172.0,64.0,78.0,1.0,1.0,64.0,31.0,62.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0218,82,6,6,True,0.0,139.0,88.0,97.0,1.0,0.5,88.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0219,82,8,8,True,0.0,86.0,20.0,27.0,2.0,0.75,17.0,3.0,11.0,1.0,1.0,"coordinated group|coordinated, unconfirmed|hostile swarm|suspicious formation"
+SW-0220,82,3,3,True,0.0,110.0,44.0,83.0,2.0,1.0,44.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0221,82,3,3,True,7.0,140.0,58.0,67.0,2.0,1.0,58.0,11.0,45.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0222,82,7,7,True,0.0,172.0,53.0,62.0,2.0,0.43,53.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0223,82,6,6,True,0.0,170.0,40.0,52.0,2.0,1.0,40.0,3.0,17.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0224,82,4,4,True,0.0,104.0,100.0,106.0,1.0,0.75,100.0,3.0,5.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0225,82,4,4,True,0.0,107.0,24.0,33.0,2.0,0.75,24.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0226,82,6,6,True,0.0,131.0,61.0,70.0,2.0,1.0,61.0,3.0,14.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0227,82,6,6,True,0.0,103.0,52.0,83.0,2.0,0.67,52.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0228,82,4,4,True,0.0,139.0,128.0,137.0,1.0,1.0,128.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0229,82,8,8,True,0.0,148.0,51.0,51.0,2.0,0.67,40.0,3.0,5.0,1.0,1.0,"coordinated group|coordinated, unconfirmed|hostile swarm|suspicious formation"
+SW-0230,82,6,6,True,19.0,198.0,98.0,143.0,2.0,1.0,98.0,23.0,53.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0231,82,3,3,True,133.0,,171.0,216.0,2.0,1.0,168.0,138.0,178.0,1.0,1.0,coordinated group|hostile swarm|suspicious formation
+SW-0232,82,6,6,True,0.0,143.0,116.0,125.0,2.0,0.5,116.0,3.0,26.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0233,82,3,3,True,0.0,108.0,87.0,96.0,1.0,1.0,87.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0234,82,8,8,True,0.0,148.0,59.0,68.0,2.0,0.38,59.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0235,82,6,6,True,0.0,177.0,121.0,185.0,4.0,0.5,121.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0236,82,7,7,True,0.0,188.0,78.0,87.0,2.0,0.43,78.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0237,82,3,3,True,0.0,131.0,112.0,121.0,1.0,1.0,112.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0238,82,3,3,True,0.0,188.0,78.0,134.0,3.0,1.0,78.0,3.0,44.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0239,82,7,7,True,0.0,,115.0,127.0,2.0,0.67,115.0,3.0,12.0,1.0,1.0,hostile swarm|hostile swarm (forming)|suspicious formation
+SW-0240,82,3,3,True,0.0,155.0,107.0,142.0,2.0,1.0,107.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0241,82,6,6,True,0.0,143.0,54.0,58.0,2.0,1.0,49.0,3.0,14.0,1.0,1.0,coordinated group|hostile swarm|suspicious formation
+SW-0242,82,5,5,True,0.0,98.0,44.0,54.0,2.0,0.6,44.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0243,82,8,8,True,0.0,,121.0,130.0,1.0,0.38,121.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0244,82,4,4,True,0.0,193.0,98.0,155.0,2.0,1.0,96.0,3.0,13.0,1.0,1.0,coordinated group|hostile swarm|suspicious formation
+SW-0245,82,8,8,True,0.0,192.0,26.0,29.0,2.0,0.38,17.0,3.0,3.0,1.0,1.0,"coordinated, unconfirmed|hostile swarm|suspicious formation"
+SW-0246,82,5,5,True,0.0,89.0,42.0,82.0,2.0,0.6,42.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0247,82,6,6,True,0.0,125.0,47.0,56.0,2.0,0.67,47.0,3.0,7.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0248,82,6,6,True,0.0,118.0,38.0,47.0,2.0,0.5,38.0,3.0,3.0,1.0,1.0,"coordinated, unconfirmed|hostile swarm|suspicious formation"
+SW-0249,82,7,7,True,0.0,179.0,31.0,40.0,2.0,0.57,31.0,3.0,14.0,1.0,1.0,coordinated group|hostile swarm|suspicious formation
+SW-0250,82,5,5,True,0.0,94.0,95.0,95.0,1.0,1.0,72.0,3.0,3.0,1.0,1.0,"coordinated, unconfirmed|hostile swarm"
+SW-0251,82,4,4,True,0.0,170.0,140.0,147.0,1.0,0.75,140.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0252,82,3,3,True,0.0,166.0,99.0,108.0,2.0,1.0,99.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0253,82,6,6,True,0.0,138.0,24.0,33.0,2.0,0.6,24.0,3.0,8.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0254,82,5,5,True,0.0,197.0,174.0,177.0,1.0,0.6,164.0,3.0,3.0,1.0,1.0,"coordinated, unconfirmed|hostile swarm|suspicious formation"
+SW-0255,82,3,3,True,29.0,160.0,103.0,151.0,2.0,1.0,103.0,34.0,63.0,1.0,1.0,"coordinated, unconfirmed|hostile swarm|suspicious formation"
+SW-0256,82,4,4,True,39.0,207.0,127.0,140.0,2.0,0.75,127.0,44.0,92.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0257,82,8,8,True,0.0,,199.0,208.0,1.0,0.38,199.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0258,82,8,8,True,0.0,219.0,76.0,92.0,3.0,0.43,76.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0259,82,3,3,True,0.0,105.0,88.0,,1.0,1.0,88.0,3.0,3.0,1.0,0.0,suspicious formation
+SW-0260,82,4,4,True,0.0,135.0,127.0,136.0,1.0,0.75,127.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0261,82,3,3,True,0.0,184.0,179.0,183.0,1.0,1.0,179.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0262,82,3,3,True,0.0,165.0,97.0,146.0,2.0,1.0,97.0,7.0,12.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0263,82,8,8,True,0.0,212.0,103.0,141.0,2.0,0.38,103.0,3.0,3.0,1.0,1.0,hostile swarm|hostile swarm (forming)|suspicious formation
+SW-0264,82,4,4,True,0.0,137.0,93.0,102.0,1.0,0.75,93.0,3.0,11.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0265,82,3,3,True,0.0,151.0,98.0,98.0,2.0,1.0,86.0,3.0,5.0,1.0,1.0,coordinated group|hostile swarm
+SW-0266,82,4,4,True,0.0,169.0,44.0,61.0,2.0,1.0,44.0,5.0,36.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0267,82,3,3,True,0.0,112.0,83.0,,1.0,1.0,83.0,3.0,3.0,1.0,0.0,"coordinated, unconfirmed|suspicious formation"
+SW-0268,82,8,8,True,0.0,110.0,16.0,24.0,2.0,0.88,15.0,3.0,3.0,1.0,1.0,coordinated group|hostile swarm|suspicious formation
+SW-0269,82,5,5,True,0.0,200.0,98.0,114.0,2.0,0.6,98.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0270,82,5,5,True,0.0,150.0,118.0,127.0,1.0,0.6,118.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0271,76,3,13,True,0.0,60.0,,,0.0,0.0,15.0,3.0,3.0,0.0,0.0,approved group
+SW-0272,76,1,11,True,0.0,103.0,,,0.0,0.0,15.0,3.0,3.0,0.0,0.0,approved group
+SW-0273,76,2,12,True,0.0,38.0,,,0.0,0.0,16.0,3.0,3.0,0.0,0.0,approved group
+SW-0274,76,1,11,True,0.0,45.0,,,0.0,0.0,15.0,3.0,3.0,0.0,0.0,approved group
+SW-0275,76,3,13,True,0.0,106.0,,,0.0,0.0,15.0,3.0,3.0,0.0,0.0,approved group
+SW-0276,76,1,11,True,22.0,,,,0.0,0.0,15.0,54.0,162.0,0.0,0.0,approved group
+SW-0277,76,1,11,True,0.0,127.0,157.0,,1.0,1.0,16.0,3.0,8.0,1.0,0.0,approved group|intruder in approved group
+SW-0278,76,1,11,True,0.0,128.0,,,0.0,0.0,17.0,3.0,6.0,0.0,0.0,approved group
+SW-0279,76,3,13,True,0.0,57.0,33.0,56.0,3.0,1.0,15.0,3.0,21.0,1.0,1.0,approved group|hostile swarm|intruder in approved group|suspicious formation
+SW-0280,76,1,11,True,0.0,160.0,191.0,,1.0,1.0,15.0,3.0,6.0,1.0,0.0,approved group|intruder in approved group
+SW-0281,76,3,13,True,0.0,143.0,,,0.0,0.0,15.0,3.0,3.0,0.0,0.0,approved group
+SW-0282,76,3,13,True,0.0,104.0,,,0.0,0.0,15.0,3.0,3.0,0.0,0.0,approved group
+SW-0283,76,2,12,True,0.0,132.0,160.0,,1.0,0.5,15.0,3.0,23.0,1.0,0.0,approved group|intruder in approved group
+SW-0284,76,2,12,True,0.0,74.0,95.0,,1.0,0.5,16.0,3.0,5.0,1.0,0.0,approved group|intruder in approved group
+SW-0285,76,1,11,True,0.0,36.0,,,0.0,0.0,15.0,3.0,3.0,0.0,0.0,approved group
+SW-0286,76,2,12,True,0.0,73.0,,,0.0,0.0,15.0,3.0,3.0,0.0,0.0,approved group
+SW-0287,76,3,13,True,0.0,172.0,,,0.0,0.0,17.0,3.0,3.0,0.0,0.0,approved group
+SW-0288,76,2,12,True,0.0,,,,0.0,0.0,15.0,3.0,3.0,0.0,0.0,approved group
+SW-0289,76,3,13,True,0.0,230.0,,,0.0,0.0,17.0,3.0,3.0,0.0,0.0,approved group
+SW-0290,76,3,13,True,0.0,,,,0.0,0.0,15.0,3.0,3.0,0.0,0.0,approved group
+SW-0291,76,2,12,True,0.0,37.0,,,0.0,0.0,15.0,3.0,3.0,0.0,0.0,approved group
+SW-0292,76,2,12,True,0.0,80.0,104.0,,1.0,0.5,20.0,3.0,11.0,1.0,0.0,approved group|intruder in approved group
+SW-0293,76,3,13,True,0.0,63.0,,,0.0,0.0,15.0,3.0,3.0,0.0,0.0,approved group
+SW-0294,76,3,13,True,0.0,,,,0.0,0.0,15.0,3.0,3.0,0.0,0.0,approved group
+SW-0295,76,2,12,True,0.0,,,,0.0,0.0,16.0,3.0,3.0,0.0,0.0,approved group
+SW-0296,76,3,13,True,19.0,167.0,104.0,,1.0,1.0,15.0,23.0,52.0,1.0,0.0,approved group|intruder in approved group
+SW-0297,76,1,11,True,0.0,214.0,,,0.0,0.0,15.0,4.0,40.0,0.0,0.0,approved group
+SW-0298,76,2,12,True,32.0,,,,0.0,0.0,16.0,45.0,77.0,0.0,0.0,approved group
+SW-0299,76,3,13,True,0.0,24.0,15.0,24.0,2.0,1.0,15.0,3.0,3.0,1.0,1.0,approved group|hostile swarm|intruder in approved group|suspicious formation
+SW-0300,76,2,12,True,0.0,41.0,73.0,,1.0,0.5,15.0,3.0,3.0,1.0,0.0,approved group|intruder in approved group
+SW-0301,76,3,13,True,0.0,,157.0,166.0,1.0,1.0,16.0,3.0,3.0,1.0,1.0,approved group|hostile swarm|suspicious formation
+SW-0302,76,2,12,True,0.0,42.0,,,0.0,0.0,15.0,3.0,3.0,0.0,0.0,approved group
+SW-0303,76,1,11,True,34.0,,,,0.0,0.0,26.0,38.0,86.0,0.0,0.0,approved group
+SW-0304,76,3,13,True,0.0,,,,0.0,0.0,16.0,3.0,3.0,0.0,0.0,approved group
+SW-0305,76,3,13,True,0.0,57.0,,,0.0,0.0,15.0,3.0,3.0,0.0,0.0,approved group
+SW-0306,76,3,13,True,0.0,56.0,,,0.0,0.0,15.0,3.0,3.0,0.0,0.0,approved group
+SW-0307,76,3,13,True,0.0,187.0,141.0,150.0,2.0,1.0,16.0,3.0,3.0,1.0,1.0,approved group|hostile swarm|intruder in approved group|suspicious formation
+SW-0308,76,3,13,True,0.0,31.0,,,0.0,0.0,20.0,3.0,3.0,0.0,0.0,approved group
+SW-0309,76,3,13,True,0.0,,164.0,173.0,3.0,1.0,15.0,3.0,3.0,1.0,1.0,approved group|hostile swarm|suspicious formation
+SW-0310,76,2,12,True,0.0,132.0,,,0.0,0.0,16.0,3.0,3.0,0.0,0.0,approved group
+SW-0311,54,3,6,True,0.0,130.0,68.0,77.0,1.0,1.0,68.0,3.0,64.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0312,54,3,6,True,0.0,11.0,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0313,54,2,5,True,0.0,43.0,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0314,54,3,6,True,0.0,107.0,27.0,36.0,1.0,1.0,27.0,3.0,7.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0315,54,3,6,True,0.0,13.0,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0316,54,2,5,True,0.0,63.0,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0317,54,2,5,True,0.0,100.0,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0318,54,3,6,True,0.0,101.0,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0319,54,3,6,True,0.0,112.0,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0320,54,2,5,True,6.0,91.0,61.0,61.0,1.0,1.0,61.0,11.0,30.0,1.0,1.0,hostile swarm
+SW-0321,54,3,6,True,2.0,60.0,37.0,44.0,1.0,1.0,35.0,5.0,14.0,1.0,1.0,coordinated group|hostile swarm|suspicious formation
+SW-0322,54,2,5,True,0.0,116.0,,,0.0,0.0,,3.0,5.0,0.0,0.0,
+SW-0323,54,3,6,True,4.0,62.0,58.0,64.0,1.0,1.0,58.0,7.0,32.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0324,54,3,6,True,0.0,177.0,120.0,129.0,1.0,1.0,120.0,3.0,22.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0325,54,2,5,True,0.0,181.0,,,0.0,0.0,,3.0,5.0,0.0,0.0,
+SW-0326,54,3,6,True,28.0,205.0,184.0,193.0,1.0,1.0,184.0,40.0,71.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0327,54,3,6,True,0.0,72.0,21.0,30.0,1.0,1.0,21.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0328,54,2,5,True,0.0,170.0,,,0.0,0.0,,3.0,9.0,0.0,0.0,
+SW-0329,54,3,6,True,25.0,122.0,90.0,90.0,1.0,1.0,90.0,28.0,56.0,1.0,1.0,hostile swarm
+SW-0330,54,3,6,True,0.0,12.0,15.0,,1.0,1.0,15.0,3.0,3.0,1.0,0.0,suspicious formation
+SW-0331,54,2,5,True,20.0,89.0,61.0,,1.0,1.0,60.0,24.0,34.0,1.0,0.0,intruder in approved group
+SW-0332,54,3,6,True,0.0,146.0,143.0,155.0,1.0,1.0,143.0,3.0,14.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0333,54,3,6,True,7.0,116.0,71.0,80.0,1.0,1.0,71.0,12.0,22.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0334,54,2,5,True,0.0,134.0,,,0.0,0.0,,3.0,38.0,0.0,0.0,
+SW-0335,54,2,5,True,0.0,58.0,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0336,54,2,5,True,0.0,50.0,,,0.0,0.0,,3.0,10.0,0.0,0.0,
+SW-0337,54,3,6,True,0.0,128.0,95.0,95.0,2.0,0.67,95.0,3.0,5.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0338,54,3,6,True,0.0,96.0,52.0,60.0,2.0,1.0,52.0,3.0,6.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0339,54,2,5,True,0.0,119.0,,,0.0,0.0,,3.0,20.0,0.0,0.0,
+SW-0340,54,3,6,True,0.0,94.0,57.0,71.0,3.0,1.0,57.0,3.0,9.0,1.0,1.0,approved group|hostile swarm|suspicious formation
+SW-0341,55,4,4,True,0.0,50.0,21.0,30.0,1.0,0.75,21.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0342,55,2,2,True,0.0,,,,0.0,0.0,,7.0,13.0,0.0,0.0,
+SW-0343,55,4,4,True,0.0,33.0,21.0,30.0,1.0,0.75,21.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0344,55,3,3,True,0.0,,75.0,84.0,1.0,1.0,75.0,3.0,12.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0345,55,2,2,True,0.0,,,,0.0,0.0,,3.0,27.0,0.0,0.0,
+SW-0346,55,4,4,True,0.0,,,,0.0,0.0,,3.0,6.0,0.0,0.0,
+SW-0347,55,4,4,True,0.0,,79.0,88.0,1.0,0.75,79.0,3.0,15.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0348,55,3,3,True,0.0,48.0,19.0,28.0,1.0,1.0,19.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0349,55,4,4,True,0.0,31.0,29.0,29.0,2.0,1.0,29.0,3.0,3.0,1.0,1.0,hostile swarm
+SW-0350,55,4,4,True,0.0,,196.0,205.0,1.0,1.0,196.0,14.0,29.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0351,55,4,4,True,4.0,218.0,,,0.0,0.0,,16.0,131.0,0.0,0.0,
+SW-0352,55,2,2,True,0.0,63.0,,,0.0,0.0,,3.0,6.0,0.0,0.0,
+SW-0353,55,3,3,True,7.0,78.0,52.0,61.0,1.0,1.0,52.0,10.0,29.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0354,55,2,2,True,1.0,206.0,145.0,145.0,1.0,1.0,145.0,4.0,14.0,1.0,1.0,hostile swarm
+SW-0355,55,3,3,True,79.0,,,,0.0,0.0,,101.0,224.0,0.0,0.0,
+SW-0356,55,4,4,True,0.0,,103.0,115.0,1.0,0.75,103.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0357,55,4,4,True,9.0,,217.0,226.0,1.0,0.75,217.0,56.0,61.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0358,55,4,4,True,0.0,,,,0.0,0.0,,4.0,4.0,0.0,0.0,
+SW-0359,55,3,3,True,0.0,148.0,146.0,155.0,1.0,1.0,146.0,20.0,20.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0360,55,3,3,True,0.0,,53.0,81.0,2.0,1.0,53.0,9.0,12.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0361,55,4,4,True,0.0,,55.0,64.0,1.0,1.0,55.0,5.0,25.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0362,55,2,2,True,5.0,36.0,,,0.0,0.0,,8.0,36.0,0.0,0.0,
+SW-0363,55,3,3,True,0.0,37.0,41.0,41.0,1.0,1.0,41.0,3.0,3.0,1.0,1.0,hostile swarm
+SW-0364,55,4,4,True,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0365,55,3,3,True,0.0,,26.0,,3.0,1.0,26.0,3.0,7.0,1.0,0.0,suspicious formation
+SW-0366,55,3,3,True,3.0,,,,0.0,0.0,,135.0,,0.0,0.0,
+SW-0367,55,2,2,True,22.0,,,,0.0,0.0,,25.0,51.0,0.0,0.0,
+SW-0368,55,4,4,True,0.0,52.0,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0369,55,4,4,True,0.0,135.0,103.0,127.0,2.0,0.75,103.0,4.0,6.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0370,55,3,3,True,1.0,,27.0,36.0,1.0,1.0,27.0,4.0,7.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0371,56,2,2,True,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0372,56,2,2,True,29.0,,,,0.0,0.0,,54.0,81.0,0.0,0.0,
+SW-0373,56,2,2,True,0.0,84.0,,,0.0,0.0,,3.0,13.0,0.0,0.0,
+SW-0374,56,4,4,True,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0375,56,2,2,True,104.0,,,,0.0,0.0,,111.0,162.0,0.0,0.0,
+SW-0376,56,2,2,True,81.0,,,,0.0,0.0,,84.0,98.0,0.0,0.0,
+SW-0377,56,2,2,True,31.0,,,,0.0,0.0,,43.0,99.0,0.0,0.0,
+SW-0378,56,2,2,True,21.0,,,,0.0,0.0,,45.0,72.0,0.0,0.0,
+SW-0379,56,2,2,True,0.0,135.0,,,0.0,0.0,,3.0,5.0,0.0,0.0,
+SW-0380,56,2,2,True,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0381,56,4,4,True,0.0,58.0,46.0,46.0,1.0,1.0,29.0,3.0,3.0,1.0,1.0,"coordinated, unconfirmed|hostile swarm"
+SW-0382,56,3,3,True,0.0,44.0,26.0,37.0,1.0,1.0,26.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0383,56,3,3,True,2.0,,,,0.0,0.0,,35.0,56.0,0.0,0.0,
+SW-0384,56,2,2,True,75.0,,,,0.0,0.0,,81.0,114.0,0.0,0.0,
+SW-0385,56,3,3,True,4.0,,75.0,84.0,1.0,1.0,75.0,7.0,26.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0386,56,3,3,True,0.0,30.0,19.0,28.0,1.0,1.0,19.0,3.0,7.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0387,56,3,3,True,10.0,154.0,104.0,106.0,1.0,1.0,97.0,70.0,95.0,1.0,1.0,"coordinated group|coordinated, unconfirmed|hostile swarm|suspicious formation"
+SW-0388,56,2,2,True,0.0,,,,0.0,0.0,,3.0,6.0,0.0,0.0,
+SW-0389,56,3,3,True,0.0,,,,0.0,0.0,,6.0,6.0,0.0,0.0,
+SW-0390,56,4,4,True,60.0,195.0,140.0,140.0,1.0,1.0,124.0,70.0,86.0,1.0,1.0,"coordinated group|coordinated, unconfirmed|hostile swarm"
+SW-0391,56,4,4,True,2.0,,,,0.0,0.0,,11.0,,0.0,0.0,
+SW-0392,56,4,4,True,0.0,,211.0,,1.0,0.75,211.0,3.0,9.0,1.0,0.0,suspicious formation
+SW-0393,56,3,3,True,0.0,192.0,148.0,199.0,2.0,1.0,148.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0394,56,3,3,True,0.0,80.0,28.0,37.0,1.0,1.0,28.0,6.0,14.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0395,56,4,4,True,0.0,98.0,91.0,100.0,1.0,0.75,91.0,3.0,3.0,1.0,1.0,hostile swarm|suspicious formation
+SW-0396,56,2,2,True,0.0,,,,0.0,0.0,,3.0,7.0,0.0,0.0,
+SW-0397,56,3,3,True,28.0,,,,0.0,0.0,,52.0,52.0,0.0,0.0,
+SW-0398,56,4,4,True,0.0,145.0,,,0.0,0.0,,7.0,9.0,0.0,0.0,
+SW-0399,56,4,4,True,0.0,,,,0.0,0.0,,3.0,5.0,0.0,0.0,
+SW-0400,56,3,3,True,1.0,,229.0,,1.0,1.0,229.0,4.0,184.0,1.0,0.0,suspicious formation
+SW-0401,49,3,3,True,71.0,122.0,100.0,100.0,2.0,0.67,100.0,74.0,82.0,1.0,1.0,hostile swarm
+SW-0402,49,3,3,True,0.0,116.0,95.0,95.0,1.0,0.67,95.0,3.0,7.0,1.0,1.0,hostile swarm
+SW-0403,49,4,4,True,13.0,,,,0.0,0.0,,77.0,87.0,0.0,0.0,
+SW-0404,49,4,4,True,0.0,105.0,83.0,83.0,1.0,0.67,83.0,3.0,3.0,1.0,1.0,coordinated group|hostile swarm
+SW-0405,49,3,3,True,0.0,142.0,108.0,108.0,2.0,0.67,108.0,3.0,3.0,1.0,1.0,hostile swarm
+SW-0406,49,4,4,True,9.0,151.0,161.0,161.0,1.0,0.5,161.0,37.0,39.0,1.0,1.0,hostile swarm
+SW-0407,49,3,3,True,8.0,103.0,85.0,85.0,1.0,0.67,85.0,11.0,13.0,1.0,1.0,hostile swarm
+SW-0408,49,4,4,True,14.0,54.0,40.0,40.0,1.0,0.5,40.0,18.0,26.0,1.0,1.0,hostile swarm
+SW-0409,49,2,2,True,183.0,,,,0.0,0.0,,198.0,223.0,0.0,0.0,
+SW-0410,49,3,3,True,0.0,83.0,48.0,48.0,1.0,0.67,48.0,3.0,3.0,1.0,1.0,hostile swarm
+SW-0411,49,3,3,True,1.0,169.0,159.0,159.0,1.0,0.67,159.0,18.0,22.0,1.0,1.0,hostile swarm
+SW-0412,49,4,4,True,76.0,,195.0,195.0,1.0,0.5,195.0,104.0,125.0,1.0,1.0,hostile swarm
+SW-0413,49,3,3,True,0.0,121.0,93.0,93.0,1.0,0.67,93.0,3.0,3.0,1.0,1.0,hostile swarm
+SW-0414,49,3,3,True,16.0,211.0,202.0,202.0,1.0,0.67,202.0,22.0,27.0,1.0,1.0,hostile swarm
+SW-0415,49,3,3,True,0.0,77.0,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0416,49,4,4,True,0.0,68.0,67.0,67.0,1.0,0.75,67.0,3.0,27.0,1.0,1.0,hostile swarm
+SW-0417,49,3,3,True,1.0,57.0,37.0,37.0,1.0,0.67,37.0,4.0,8.0,1.0,1.0,hostile swarm
+SW-0418,49,3,3,True,0.0,62.0,43.0,43.0,1.0,0.67,43.0,3.0,3.0,1.0,1.0,hostile swarm
+SW-0419,49,4,4,True,8.0,122.0,84.0,84.0,1.0,0.75,84.0,17.0,24.0,1.0,1.0,hostile swarm
+SW-0420,49,4,4,True,81.0,165.0,130.0,130.0,1.0,0.75,130.0,88.0,105.0,1.0,1.0,"coordinated, unconfirmed|hostile swarm"
+SW-0421,49,4,4,True,0.0,72.0,,,0.0,0.0,,3.0,10.0,0.0,0.0,
+SW-0422,49,4,4,True,0.0,198.0,173.0,173.0,2.0,0.5,173.0,3.0,8.0,1.0,1.0,hostile swarm
+SW-0423,49,3,3,True,0.0,48.0,36.0,36.0,1.0,0.67,36.0,3.0,11.0,1.0,1.0,hostile swarm
+SW-0424,49,3,3,True,0.0,168.0,132.0,132.0,1.0,0.67,132.0,6.0,8.0,1.0,1.0,hostile swarm
+SW-0425,49,4,4,True,0.0,146.0,109.0,109.0,2.0,0.5,109.0,13.0,26.0,1.0,1.0,hostile swarm
+SW-0426,49,3,3,True,123.0,231.0,216.0,216.0,1.0,1.0,216.0,131.0,162.0,1.0,1.0,hostile swarm
+SW-0427,49,4,4,True,18.0,207.0,200.0,200.0,1.0,0.5,200.0,30.0,35.0,1.0,1.0,hostile swarm
+SW-0428,49,4,4,True,0.0,126.0,118.0,118.0,1.0,0.5,118.0,13.0,15.0,1.0,1.0,hostile swarm
+SW-0429,49,3,3,True,105.0,203.0,179.0,179.0,2.0,0.67,179.0,109.0,126.0,1.0,1.0,hostile swarm
+SW-0430,49,4,4,True,0.0,47.0,47.0,47.0,1.0,0.5,47.0,3.0,3.0,1.0,1.0,hostile swarm
+SW-0431,5,12,12,False,0.0,0.0,,,0.0,0.0,15.0,,,0.0,0.0,approved group
+SW-0432,5,12,12,False,0.0,0.0,,,0.0,0.0,16.0,,,0.0,0.0,approved group
+SW-0433,5,12,12,False,0.0,0.0,,,0.0,0.0,17.0,,,0.0,0.0,approved group
+SW-0434,5,12,12,False,0.0,0.0,,,0.0,0.0,15.0,,,0.0,0.0,approved group
+SW-0435,5,12,12,False,0.0,0.0,,,0.0,0.0,17.0,,,0.0,0.0,approved group
+SW-0436,5,12,12,False,0.0,0.0,,,0.0,0.0,18.0,,,0.0,0.0,approved group
+SW-0437,5,12,12,False,0.0,0.0,,,0.0,0.0,15.0,,,0.0,0.0,approved group
+SW-0438,5,12,12,False,0.0,0.0,,,0.0,0.0,15.0,,,0.0,0.0,approved group
+SW-0439,5,12,12,False,0.0,0.0,,,0.0,0.0,15.0,,,0.0,0.0,approved group
+SW-0440,5,12,12,False,0.0,0.0,,,0.0,0.0,15.0,,,0.0,0.0,approved group
+SW-0441,5,12,12,False,0.0,0.0,,,0.0,0.0,20.0,,,0.0,0.0,approved group
+SW-0442,5,12,12,False,0.0,0.0,,,0.0,0.0,15.0,,,0.0,0.0,approved group
+SW-0443,5,12,12,False,0.0,0.0,,,0.0,0.0,17.0,43.0,43.0,0.0,0.0,approved group
+SW-0444,5,12,12,False,0.0,0.0,,,0.0,0.0,15.0,,,0.0,0.0,approved group
+SW-0445,5,12,12,False,0.0,0.0,,,0.0,0.0,15.0,,,0.0,0.0,approved group
+SW-0446,5,12,12,False,0.0,0.0,,,0.0,0.0,15.0,,,0.0,0.0,approved group
+SW-0447,5,12,12,False,0.0,0.0,,,0.0,0.0,16.0,,,0.0,0.0,approved group
+SW-0448,5,12,12,False,0.0,0.0,,,0.0,0.0,15.0,,,0.0,0.0,approved group
+SW-0449,5,12,12,False,0.0,0.0,,,0.0,0.0,15.0,,,0.0,0.0,approved group
+SW-0450,5,12,12,False,0.0,0.0,,,0.0,0.0,16.0,,,0.0,0.0,approved group
+SW-0451,68,12,12,False,0.0,168.0,,,0.0,0.0,50.0,235.0,,0.0,0.0,approved group
+SW-0452,68,12,12,False,0.0,45.0,,,0.0,0.0,15.0,,,0.0,0.0,approved group
+SW-0453,68,12,12,False,0.0,23.0,,,0.0,0.0,15.0,41.0,,0.0,0.0,approved group
+SW-0454,68,12,12,False,0.0,125.0,,,0.0,0.0,94.0,,,0.0,0.0,approved group
+SW-0455,68,12,12,False,0.0,105.0,,,0.0,0.0,37.0,,,0.0,0.0,approved group
+SW-0456,68,12,12,False,0.0,,,,0.0,0.0,45.0,,,0.0,0.0,approved group
+SW-0457,68,12,12,False,0.0,105.0,,,0.0,0.0,37.0,,,0.0,0.0,approved group
+SW-0458,68,12,12,False,0.0,57.0,,,0.0,0.0,15.0,,,0.0,0.0,approved group
+SW-0459,68,12,12,False,0.0,34.0,,,0.0,0.0,15.0,,,0.0,0.0,approved group
+SW-0460,68,12,12,False,0.0,125.0,,,0.0,0.0,57.0,,,0.0,0.0,approved group
+SW-0461,68,12,12,False,0.0,36.0,,,0.0,0.0,38.0,,,0.0,0.0,approved group
+SW-0462,68,12,12,False,0.0,52.0,,,0.0,0.0,16.0,,,0.0,0.0,approved group
+SW-0463,68,12,12,False,0.0,89.0,,,0.0,0.0,57.0,,,0.0,0.0,approved group
+SW-0464,68,12,12,False,0.0,96.0,,,0.0,0.0,27.0,,,0.0,0.0,approved group
+SW-0465,68,12,12,False,0.0,82.0,,,0.0,0.0,52.0,,,0.0,0.0,approved group
+SW-0466,68,12,12,False,0.0,60.0,,,0.0,0.0,44.0,,,0.0,0.0,approved group
+SW-0467,68,12,12,False,0.0,56.0,,,0.0,0.0,15.0,,,0.0,0.0,approved group
+SW-0468,68,12,12,False,0.0,106.0,,,0.0,0.0,20.0,,,0.0,0.0,approved group
+SW-0469,68,12,12,False,0.0,191.0,,,0.0,0.0,125.0,26.0,41.0,0.0,0.0,approved group
+SW-0470,68,12,12,False,0.0,127.0,,,0.0,0.0,93.0,22.0,53.0,0.0,0.0,approved group
+SW-0471,73,6,6,False,0.0,,,,0.0,0.0,19.0,,,0.0,0.0,approved group
+SW-0472,73,5,5,False,0.0,0.0,,,0.0,0.0,29.0,23.0,,0.0,0.0,approved group
+SW-0473,73,4,4,False,0.0,0.0,,,0.0,0.0,17.0,42.0,,0.0,0.0,approved group
+SW-0474,73,3,3,False,0.0,44.0,,,0.0,0.0,17.0,,,0.0,0.0,approved group
+SW-0475,73,4,4,False,0.0,,,,0.0,0.0,19.0,,,0.0,0.0,approved group
+SW-0476,73,5,5,False,0.0,,,,0.0,0.0,27.0,23.0,,0.0,0.0,approved group
+SW-0477,73,5,5,False,0.0,0.0,,,0.0,0.0,16.0,42.0,,0.0,0.0,approved group
+SW-0478,73,3,3,False,0.0,1.0,,,0.0,0.0,34.0,23.0,,0.0,0.0,approved group
+SW-0479,73,6,6,False,0.0,,,,0.0,0.0,23.0,,,0.0,0.0,approved group
+SW-0480,73,6,6,False,0.0,,,,0.0,0.0,18.0,,,0.0,0.0,approved group
+SW-0481,73,5,5,False,0.0,0.0,,,0.0,0.0,20.0,22.0,,0.0,0.0,approved group
+SW-0482,73,6,6,False,0.0,0.0,,,0.0,0.0,17.0,114.0,,0.0,0.0,approved group
+SW-0483,73,6,6,False,0.0,,,,0.0,0.0,21.0,,,0.0,0.0,approved group
+SW-0484,73,4,4,False,0.0,0.0,,,0.0,0.0,30.0,24.0,,0.0,0.0,approved group
+SW-0485,73,4,4,False,0.0,0.0,,,0.0,0.0,24.0,40.0,,0.0,0.0,approved group
+SW-0486,73,6,6,False,0.0,0.0,,,0.0,0.0,18.0,,,0.0,0.0,approved group
+SW-0487,73,6,6,False,0.0,4.0,,,0.0,0.0,17.0,,,0.0,0.0,approved group
+SW-0488,73,4,4,False,0.0,,,,0.0,0.0,16.0,,,0.0,0.0,approved group
+SW-0489,73,6,6,False,0.0,0.0,,,0.0,0.0,25.0,,,0.0,0.0,approved group
+SW-0490,73,3,3,False,0.0,0.0,,,0.0,0.0,20.0,,,0.0,0.0,approved group
+SW-0491,73,6,6,False,0.0,9.0,,,0.0,0.0,21.0,,,0.0,0.0,approved group
+SW-0492,73,5,5,False,0.0,0.0,,,0.0,0.0,17.0,104.0,,0.0,0.0,approved group
+SW-0493,73,4,4,False,0.0,49.0,,,0.0,0.0,27.0,,,0.0,0.0,approved group
+SW-0494,73,3,3,False,0.0,0.0,,,0.0,0.0,28.0,,,0.0,0.0,approved group
+SW-0495,73,3,3,False,0.0,,,,0.0,0.0,33.0,,,0.0,0.0,approved group
+SW-0496,73,6,6,False,0.0,0.0,,,0.0,0.0,19.0,,,0.0,0.0,approved group
+SW-0497,73,5,5,False,0.0,0.0,,,0.0,0.0,16.0,40.0,,0.0,0.0,approved group
+SW-0498,73,4,4,False,0.0,5.0,,,0.0,0.0,17.0,,,0.0,0.0,approved group
+SW-0499,73,5,5,False,0.0,11.0,,,0.0,0.0,23.0,,,0.0,0.0,approved group
+SW-0500,73,4,4,False,0.0,0.0,,,0.0,0.0,16.0,,,0.0,0.0,approved group
+SW-0501,73,5,5,False,0.0,0.0,,,0.0,0.0,19.0,,,0.0,0.0,approved group
+SW-0502,73,3,3,False,0.0,,,,0.0,0.0,17.0,,,0.0,0.0,approved group
+SW-0503,73,4,4,False,0.0,59.0,,,0.0,0.0,15.0,,,0.0,0.0,approved group
+SW-0504,73,6,6,False,0.0,,,,0.0,0.0,18.0,,,0.0,0.0,approved group
+SW-0505,73,4,4,False,0.0,0.0,,,0.0,0.0,21.0,,,0.0,0.0,approved group
+SW-0506,73,3,3,False,0.0,,,,0.0,0.0,25.0,,,0.0,0.0,approved group
+SW-0507,73,3,3,False,0.0,0.0,,,0.0,0.0,29.0,,,0.0,0.0,approved group
+SW-0508,73,6,6,False,0.0,7.0,,,0.0,0.0,18.0,,,0.0,0.0,approved group
+SW-0509,73,6,6,False,0.0,,,,0.0,0.0,18.0,112.0,,0.0,0.0,approved group
+SW-0510,73,6,6,False,0.0,,,,0.0,0.0,20.0,203.0,,0.0,0.0,approved group
+SW-0511,4,2,2,False,0.0,,,,0.0,0.0,,,,0.0,0.0,
+SW-0512,4,2,2,False,0.0,,,,0.0,0.0,,,,0.0,0.0,
+SW-0513,4,2,2,False,0.0,,,,0.0,0.0,,,,0.0,0.0,
+SW-0514,4,2,2,False,0.0,,,,0.0,0.0,,,,0.0,0.0,
+SW-0515,4,2,2,False,0.0,,,,0.0,0.0,,,,0.0,0.0,
+SW-0516,4,2,2,False,0.0,,,,0.0,0.0,72.0,,,0.0,0.0,approved group
+SW-0517,4,2,2,False,0.0,,,,0.0,0.0,,,,0.0,0.0,
+SW-0518,4,2,2,False,0.0,,,,0.0,0.0,71.0,,,0.0,0.0,approved group
+SW-0519,4,2,2,False,0.0,,,,0.0,0.0,,,,0.0,0.0,
+SW-0520,4,2,2,False,0.0,,,,0.0,0.0,,,,0.0,0.0,
+SW-0521,4,2,2,False,0.0,,,,0.0,0.0,27.0,,,0.0,0.0,approved group
+SW-0522,4,2,2,False,0.0,,,,0.0,0.0,28.0,,,0.0,0.0,approved group
+SW-0523,4,2,2,False,0.0,,,,0.0,0.0,,,,0.0,0.0,
+SW-0524,4,2,2,False,0.0,,,,0.0,0.0,,,,0.0,0.0,
+SW-0525,4,2,2,False,0.0,,,,0.0,0.0,,,,0.0,0.0,
+SW-0526,4,2,2,False,0.0,,,,0.0,0.0,,,,0.0,0.0,
+SW-0527,4,2,2,False,0.0,,,,0.0,0.0,,,,0.0,0.0,
+SW-0528,4,2,2,False,0.0,,,,0.0,0.0,30.0,,,0.0,0.0,approved group
+SW-0529,4,2,2,False,0.0,,,,0.0,0.0,,,,0.0,0.0,
+SW-0530,4,2,2,False,0.0,,,,0.0,0.0,24.0,,,0.0,0.0,approved group
+SW-0531,4,2,2,False,0.0,,,,0.0,0.0,,,,0.0,0.0,
+SW-0532,4,2,2,False,0.0,,,,0.0,0.0,20.0,,,0.0,0.0,approved group
+SW-0533,4,2,2,False,0.0,,,,0.0,0.0,,,,0.0,0.0,
+SW-0534,4,2,2,False,0.0,,,,0.0,0.0,,,,0.0,0.0,
+SW-0535,4,2,2,False,0.0,,,,0.0,0.0,27.0,,,0.0,0.0,approved group
+SW-0536,4,2,2,False,0.0,,,,0.0,0.0,,,,0.0,0.0,
+SW-0537,4,2,2,False,0.0,,,,0.0,0.0,20.0,,,0.0,0.0,approved group
+SW-0538,4,2,2,False,0.0,,,,0.0,0.0,,,,0.0,0.0,
+SW-0539,4,2,2,False,0.0,,,,0.0,0.0,,,,0.0,0.0,
+SW-0540,4,2,2,False,0.0,,,,0.0,0.0,,,,0.0,0.0,
+SW-0541,4,2,2,False,0.0,,,,0.0,0.0,,,,0.0,0.0,
+SW-0542,4,2,2,False,0.0,,,,0.0,0.0,50.0,,,0.0,0.0,approved group
+SW-0543,4,2,2,False,0.0,,,,0.0,0.0,,,,0.0,0.0,
+SW-0544,4,2,2,False,0.0,,,,0.0,0.0,,,,0.0,0.0,
+SW-0545,4,2,2,False,0.0,,,,0.0,0.0,,,,0.0,0.0,
+SW-0546,4,2,2,False,0.0,,,,0.0,0.0,,,,0.0,0.0,
+SW-0547,4,2,2,False,0.0,,,,0.0,0.0,34.0,,,0.0,0.0,approved group
+SW-0548,4,2,2,False,0.0,,,,0.0,0.0,23.0,,,0.0,0.0,approved group
+SW-0549,4,2,2,False,0.0,,,,0.0,0.0,,,,0.0,0.0,
+SW-0550,4,2,2,False,0.0,,,,0.0,0.0,,,,0.0,0.0,
+SW-0551,9,12,12,False,0.0,34.0,,,0.0,0.0,15.0,,,0.0,0.0,"coordinated, unconfirmed"
+SW-0552,9,12,12,False,0.0,,,,0.0,0.0,17.0,37.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0553,9,12,12,False,2.0,,,,0.0,0.0,31.0,6.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0554,9,12,12,False,0.0,,,,0.0,0.0,15.0,12.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0555,9,12,12,False,0.0,,,,0.0,0.0,17.0,17.0,,0.0,0.0,"coordinated group|coordinated, unconfirmed"
+SW-0556,9,12,12,False,70.0,158.0,,,0.0,0.0,110.0,78.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0557,9,12,12,False,20.0,,,,0.0,0.0,57.0,35.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0558,9,12,12,False,0.0,,,,0.0,0.0,42.0,34.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0559,9,12,12,False,0.0,,,,0.0,0.0,15.0,5.0,,0.0,0.0,"coordinated group|coordinated, unconfirmed"
+SW-0560,9,12,12,False,0.0,,,,0.0,0.0,16.0,9.0,39.0,0.0,0.0,"coordinated, unconfirmed"
+SW-0561,9,12,12,False,1.0,78.0,,,0.0,0.0,19.0,15.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0562,9,12,12,False,52.0,,,,0.0,0.0,106.0,57.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0563,9,12,12,False,0.0,,,,0.0,0.0,16.0,35.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0564,9,12,12,False,0.0,82.0,,,0.0,0.0,17.0,,,0.0,0.0,"coordinated, unconfirmed"
+SW-0565,9,12,12,False,0.0,,,,0.0,0.0,17.0,5.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0566,9,12,12,False,0.0,,,,0.0,0.0,16.0,198.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0567,9,12,12,False,0.0,70.0,,,0.0,0.0,21.0,185.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0568,9,12,12,False,0.0,,,,0.0,0.0,17.0,93.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0569,9,12,12,False,0.0,,,,0.0,0.0,15.0,4.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0570,9,12,12,False,0.0,,,,0.0,0.0,28.0,,,0.0,0.0,"coordinated, unconfirmed"
+SW-0571,9,12,12,False,0.0,,,,0.0,0.0,15.0,15.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0572,9,12,12,False,6.0,,,,0.0,0.0,35.0,41.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0573,9,12,12,False,0.0,,,,0.0,0.0,15.0,,,0.0,0.0,"coordinated group|coordinated, unconfirmed"
+SW-0574,9,12,12,False,0.0,,,,0.0,0.0,16.0,3.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0575,9,12,12,False,0.0,,,,0.0,0.0,15.0,8.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0576,9,12,12,False,1.0,,,,0.0,0.0,49.0,,,0.0,0.0,"coordinated, unconfirmed"
+SW-0577,9,12,12,False,0.0,89.0,,,0.0,0.0,16.0,5.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0578,9,12,12,False,0.0,,,,0.0,0.0,15.0,5.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0579,9,12,12,False,4.0,,,,0.0,0.0,26.0,8.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0580,9,12,12,False,0.0,,,,0.0,0.0,23.0,3.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0581,9,12,12,False,0.0,,,,0.0,0.0,17.0,70.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0582,9,12,12,False,0.0,,,,0.0,0.0,16.0,13.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0583,9,7,7,False,58.0,,,,0.0,0.0,123.0,65.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0584,9,12,12,False,0.0,115.0,,,0.0,0.0,15.0,13.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0585,9,12,12,False,0.0,,,,0.0,0.0,15.0,3.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0586,9,12,12,False,0.0,,,,0.0,0.0,15.0,5.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0587,9,12,12,False,0.0,120.0,,,0.0,0.0,73.0,17.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0588,9,12,12,False,0.0,,,,0.0,0.0,15.0,3.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0589,9,12,12,False,67.0,,,,0.0,0.0,102.0,90.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0590,9,12,12,False,0.0,,,,0.0,0.0,15.0,7.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0591,9,12,12,False,0.0,,,,0.0,0.0,18.0,,,0.0,0.0,"coordinated, unconfirmed"
+SW-0592,9,12,12,False,0.0,,,,0.0,0.0,15.0,6.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0593,9,12,12,False,0.0,,,,0.0,0.0,15.0,11.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0594,9,12,12,False,0.0,,,,0.0,0.0,15.0,54.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0595,9,12,12,False,0.0,,,,0.0,0.0,15.0,,,0.0,0.0,"coordinated, unconfirmed"
+SW-0596,9,12,12,False,9.0,,,,0.0,0.0,57.0,29.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0597,9,12,12,False,0.0,36.0,,,0.0,0.0,15.0,3.0,,0.0,0.0,"coordinated group|coordinated, unconfirmed"
+SW-0598,9,12,12,False,0.0,,,,0.0,0.0,16.0,3.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0599,9,12,12,False,0.0,,,,0.0,0.0,21.0,60.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0600,9,12,12,False,0.0,,,,0.0,0.0,17.0,16.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0601,9,12,12,False,0.0,25.0,,,0.0,0.0,20.0,11.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0602,9,12,12,False,0.0,,,,0.0,0.0,16.0,187.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0603,9,12,12,False,0.0,144.0,,,0.0,0.0,20.0,20.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0604,9,12,12,False,0.0,,,,0.0,0.0,19.0,3.0,,0.0,0.0,"coordinated group|coordinated, unconfirmed"
+SW-0605,9,12,12,False,0.0,,,,0.0,0.0,15.0,,,0.0,0.0,"coordinated, unconfirmed"
+SW-0606,9,12,12,False,0.0,,,,0.0,0.0,17.0,,,0.0,0.0,"coordinated, unconfirmed"
+SW-0607,9,12,12,False,0.0,,,,0.0,0.0,23.0,10.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0608,9,12,12,False,16.0,,,,0.0,0.0,55.0,182.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0609,9,12,12,False,0.0,61.0,,,0.0,0.0,15.0,3.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0610,9,12,12,False,16.0,,,,0.0,0.0,45.0,,,0.0,0.0,"coordinated, unconfirmed"
+SW-0611,11,12,12,False,0.0,0.0,,,0.0,0.0,,,,0.0,0.0,
+SW-0612,11,12,12,False,0.0,0.0,,,0.0,0.0,64.0,147.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0613,11,12,12,False,0.0,6.0,,,0.0,0.0,166.0,,,0.0,0.0,"coordinated, unconfirmed"
+SW-0614,11,12,12,False,0.0,22.0,,,0.0,0.0,106.0,,,0.0,0.0,"coordinated, unconfirmed"
+SW-0615,11,12,12,False,0.0,10.0,,,0.0,0.0,64.0,,,0.0,0.0,"coordinated, unconfirmed"
+SW-0616,11,12,12,False,0.0,,,,0.0,0.0,107.0,149.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0617,11,12,12,False,0.0,2.0,,,0.0,0.0,160.0,209.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0618,11,12,12,False,0.0,0.0,,,0.0,0.0,,17.0,,0.0,0.0,
+SW-0619,11,3,3,False,2.0,2.0,,,0.0,0.0,,206.0,,0.0,0.0,
+SW-0620,11,12,12,False,0.0,,,,0.0,0.0,28.0,6.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0621,11,3,3,False,0.0,,,,0.0,0.0,,,,0.0,0.0,
+SW-0622,11,12,12,False,0.0,5.0,,,0.0,0.0,32.0,,,0.0,0.0,"coordinated, unconfirmed"
+SW-0623,11,12,12,False,0.0,8.0,,,0.0,0.0,97.0,104.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0624,11,12,12,False,0.0,14.0,,,0.0,0.0,47.0,39.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0625,11,12,12,False,0.0,1.0,,,0.0,0.0,,,,0.0,0.0,
+SW-0626,11,12,12,False,7.0,13.0,,,0.0,0.0,,,,0.0,0.0,
+SW-0627,11,12,12,False,0.0,0.0,,,0.0,0.0,,,,0.0,0.0,
+SW-0628,11,11,11,False,0.0,121.0,,,0.0,0.0,,,,0.0,0.0,
+SW-0629,11,4,4,False,2.0,2.0,,,0.0,0.0,,,,0.0,0.0,
+SW-0630,11,10,10,False,0.0,0.0,,,0.0,0.0,49.0,,,0.0,0.0,"coordinated, unconfirmed"
+SW-0631,11,12,12,False,0.0,,,,0.0,0.0,,,,0.0,0.0,
+SW-0632,11,12,12,False,0.0,0.0,,,0.0,0.0,124.0,152.0,,0.0,0.0,"coordinated, unconfirmed"
+SW-0633,11,12,12,False,0.0,4.0,,,0.0,0.0,,,,0.0,0.0,
+SW-0634,11,12,12,False,5.0,5.0,,,0.0,0.0,36.0,,,0.0,0.0,"coordinated, unconfirmed"
+SW-0635,11,11,11,False,0.0,0.0,,,0.0,0.0,,209.0,,0.0,0.0,
+SW-0636,11,12,12,False,0.0,1.0,,,0.0,0.0,38.0,,,0.0,0.0,"coordinated, unconfirmed"
+SW-0637,11,12,12,False,0.0,9.0,,,0.0,0.0,20.0,,,0.0,0.0,"coordinated, unconfirmed"
+SW-0638,11,12,12,False,0.0,81.0,,,0.0,0.0,23.0,,,0.0,0.0,"coordinated, unconfirmed"
+SW-0639,11,12,12,False,0.0,3.0,,,0.0,0.0,,5.0,,0.0,0.0,
+SW-0640,11,12,12,False,0.0,0.0,,,0.0,0.0,,149.0,,0.0,0.0,
+SW-0641,11,12,12,False,0.0,34.0,,,0.0,0.0,,,,0.0,0.0,
+SW-0642,11,12,12,False,0.0,8.0,,,0.0,0.0,,,,0.0,0.0,
+SW-0643,11,5,5,False,0.0,0.0,,,0.0,0.0,,185.0,,0.0,0.0,
+SW-0644,11,6,6,False,0.0,0.0,,,0.0,0.0,,104.0,,0.0,0.0,
+SW-0645,11,12,12,False,3.0,3.0,,,0.0,0.0,,,,0.0,0.0,
+SW-0646,11,12,12,False,0.0,5.0,,,0.0,0.0,59.0,,,0.0,0.0,"coordinated, unconfirmed"
+SW-0647,11,12,12,False,0.0,12.0,,,0.0,0.0,22.0,,,0.0,0.0,"coordinated, unconfirmed"
+SW-0648,11,12,12,False,0.0,0.0,,,0.0,0.0,56.0,,,0.0,0.0,"coordinated, unconfirmed"
+SW-0649,11,11,11,False,0.0,0.0,,,0.0,0.0,112.0,,,0.0,0.0,"coordinated, unconfirmed"
+SW-0650,11,12,12,False,0.0,12.0,,,0.0,0.0,69.0,,,0.0,0.0,"coordinated, unconfirmed"
+SW-0651,83,4,4,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0652,83,5,5,False,0.0,,115.0,,1.0,0.6,115.0,3.0,3.0,1.0,0.0,suspicious formation
+SW-0653,83,4,4,False,0.0,,,,0.0,0.0,,3.0,90.0,0.0,0.0,
+SW-0654,83,3,3,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0655,83,3,3,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0656,83,5,5,False,0.0,,105.0,,1.0,0.6,105.0,3.0,3.0,1.0,0.0,suspicious formation
+SW-0657,83,3,3,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0658,83,5,5,False,0.0,,95.0,,4.0,0.6,95.0,3.0,3.0,1.0,0.0,suspicious formation
+SW-0659,83,5,5,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0660,83,5,5,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0661,83,3,3,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0662,83,4,4,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0663,83,3,3,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0664,83,5,5,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0665,83,3,3,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0666,83,5,5,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0667,83,4,4,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0668,83,5,5,False,0.0,,107.0,,1.0,0.6,107.0,3.0,,1.0,0.0,suspicious formation
+SW-0669,83,3,3,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0670,83,3,3,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0671,83,4,4,False,0.0,,45.0,,1.0,0.75,45.0,3.0,,1.0,0.0,suspicious formation
+SW-0672,83,4,4,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0673,83,3,3,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0674,83,4,4,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0675,83,3,3,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0676,83,3,3,False,0.0,,,,0.0,0.0,,3.0,8.0,0.0,0.0,
+SW-0677,83,3,3,False,0.0,,29.0,,4.0,1.0,29.0,3.0,3.0,1.0,0.0,suspicious formation
+SW-0678,83,4,4,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0679,83,3,3,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0680,83,4,4,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0681,83,5,5,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0682,83,5,5,False,0.0,,168.0,,1.0,0.6,168.0,3.0,,1.0,0.0,suspicious formation
+SW-0683,83,5,5,False,0.0,,189.0,,2.0,0.6,189.0,3.0,,1.0,0.0,suspicious formation
+SW-0684,83,4,4,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0685,83,4,4,False,0.0,,,,0.0,0.0,,3.0,7.0,0.0,0.0,
+SW-0686,83,4,4,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0687,83,4,4,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0688,83,4,4,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0689,83,4,4,False,0.0,,60.0,,1.0,0.75,60.0,3.0,3.0,1.0,0.0,suspicious formation
+SW-0690,83,4,4,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0691,83,3,3,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0692,83,5,5,False,0.0,,135.0,146.0,1.0,0.6,135.0,3.0,,1.0,1.0,hostile swarm|suspicious formation
+SW-0693,83,3,3,False,0.0,,117.0,,1.0,1.0,117.0,3.0,,1.0,0.0,suspicious formation
+SW-0694,83,4,4,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0695,83,4,4,False,0.0,,155.0,,1.0,0.75,155.0,3.0,,1.0,0.0,suspicious formation
+SW-0696,83,4,4,False,0.0,,55.0,,1.0,0.75,55.0,3.0,3.0,1.0,0.0,suspicious formation
+SW-0697,83,3,3,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0698,83,5,5,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0699,83,3,3,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0700,83,4,4,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0701,83,4,4,False,0.0,,129.0,,1.0,0.75,129.0,3.0,3.0,1.0,0.0,suspicious formation
+SW-0702,83,4,4,False,0.0,,76.0,,1.0,0.75,76.0,3.0,3.0,1.0,0.0,suspicious formation
+SW-0703,83,4,4,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0704,83,3,3,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0705,83,3,3,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0706,83,5,5,False,0.0,,71.0,,3.0,0.6,71.0,3.0,3.0,1.0,0.0,suspicious formation
+SW-0707,83,3,3,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0708,83,5,5,False,0.0,,33.0,,5.0,0.6,33.0,3.0,3.0,1.0,0.0,suspicious formation
+SW-0709,83,5,5,False,0.0,,36.0,,2.0,0.6,36.0,3.0,3.0,1.0,0.0,suspicious formation
+SW-0710,83,5,5,False,0.0,,106.0,,4.0,0.6,106.0,3.0,3.0,1.0,0.0,suspicious formation
+SW-0711,17,1,11,False,0.0,,,,0.0,0.0,,3.0,7.0,0.0,0.0,
+SW-0712,17,1,11,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0713,17,1,11,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0714,17,1,11,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0715,17,1,11,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0716,17,1,11,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0717,17,1,11,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0718,17,1,11,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0719,17,1,11,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0720,17,1,11,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0721,17,1,11,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0722,17,1,11,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0723,17,1,11,False,0.0,,,,0.0,0.0,,3.0,21.0,0.0,0.0,
+SW-0724,17,1,11,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0725,17,1,11,False,0.0,,,,0.0,0.0,,3.0,5.0,0.0,0.0,
+SW-0726,17,1,11,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0727,17,1,11,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0728,17,1,11,False,0.0,,,,0.0,0.0,,3.0,21.0,0.0,0.0,
+SW-0729,17,1,11,False,0.0,,,,0.0,0.0,,3.0,8.0,0.0,0.0,
+SW-0730,17,1,11,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0731,17,1,11,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0732,17,1,11,False,0.0,,,,0.0,0.0,,3.0,12.0,0.0,0.0,
+SW-0733,17,1,11,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0734,17,1,11,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0735,17,1,11,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0736,17,1,11,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0737,17,1,11,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0738,17,1,11,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0739,17,1,11,False,0.0,,,,0.0,0.0,,3.0,11.0,0.0,0.0,
+SW-0740,17,1,11,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0741,17,1,11,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0742,17,1,11,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0743,17,1,11,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0744,17,1,11,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0745,17,1,11,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0746,17,1,11,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0747,17,1,11,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0748,17,1,11,False,0.0,,,,0.0,0.0,,3.0,,0.0,0.0,
+SW-0749,17,1,11,False,0.0,,,,0.0,0.0,,3.0,3.0,0.0,0.0,
+SW-0750,17,1,11,False,0.0,,,,0.0,0.0,,4.0,4.0,0.0,0.0,

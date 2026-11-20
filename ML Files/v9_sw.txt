@@ -1,0 +1,41 @@
+750 swarm-study cases
+0 0 of 750
+0 50 of 750
+0 100 of 750
+0 150 of 750
+0 200 of 750
+0 250 of 750
+0 300 of 750
+0 350 of 750
+0 400 of 750
+0 450 of 750
+0 500 of 750
+0 550 of 750
+0 600 of 750
+0 650 of 750
+0 700 of 750
+HOSTILE GROUPS
+                                                  scenario  cases  swarm_flagged  flagged_before_arrival  sec_after_first_detection  warning_s  members_in_group  group_ids  individual_alert_ever  individual_alarm_ever
+              Decoy on one side, real drone from the other     30           0.87                    0.83                       88.0       20.0              0.67        1.0                   1.00                   1.00
+                  Swarm converging from several directions     40           0.88                    0.85                      108.0       27.0              0.18        1.0                   1.00                   0.98
+           Swarm in formation that splits near the stadium     40           0.90                    0.90                       69.5       69.0              0.44        1.0                   0.98                   0.98
+                        Drones arriving in staggered waves     40           0.72                    0.65                      105.0       33.0              0.33        2.0                   1.00                   0.98
+                               Attack timed to the flyover     30           0.53                    0.50                       56.0       32.5              1.00        1.0                   1.00                   1.00
+               Attack on the tailgate area before the game     30           0.60                    0.57                       54.0       26.0              1.00        1.0                   1.00                   0.97
+                Attack on the crowd leaving after the game     30           0.37                    0.37                       80.0       31.0              1.00        1.0                   1.00                   0.97
+          Light-show-style formation that is not scheduled     30           0.93                    0.93                       32.0      116.0              0.40        1.0                   1.00                   0.97
+Extra unlisted drone hiding inside the approved light show     40           0.30                    0.15                      122.5      -22.5              1.00        1.0                   1.00                   1.00
+Formation of drones holding 600 to 1,200 m out, watching t     60           0.67                    0.67                       94.0        NaN              0.67        1.0                   0.97                   0.93
+           Swarm holds in formation, then attacks together     60           1.00                    0.98                       78.0       67.5              0.75        2.0                   1.00                   1.00
+
+BENIGN GROUPS
+                                                  scenario  cases  coordination_recognized  false_swarm_alert  false_swarm_alarm                                    statuses
+                        Police or security drone on patrol     40                    0.300              0.000              0.000                              approved group
+                      Halftime drone light show (approved)     20                    1.000              0.000              0.000                              approved group
+                           Bird flock crossing the stadium     60                    1.000              0.000              0.000 coordinated group, coordinated, unconfirmed
+                  Birds or bats around the lights at night     40                    0.525              0.000              0.000                    coordinated, unconfirmed
+               Ten or more hobbyists at once (independent)     40                    0.000              0.000              0.000                                            
+Light show drones arriving in staggered waves to staging (     20                    1.000              0.000              0.000                              approved group
+          Approved broadcaster formation of several drones     40                    1.000              0.000              0.000                              approved group
+Several unrelated hobbyists flying near the same tailgate      60                    0.317              0.317              0.017         hostile swarm, suspicious formation
+SWDONE
