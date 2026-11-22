@@ -77,8 +77,8 @@
 </head>
 <body>
 <header>
-  <h1>Kyle Field counter-UAS: behavior recognition demo</h1>
-  <p>Pick a scenario, press Play. The view shows what the sensors see. The right side shows what the trained model calls each track, second by second.</p>
+  <h1>Kyle Field counter-UAS: scenario display</h1>
+  <p>Pick a scenario, press Play. The view shows what the sensors see. The right side shows how each track is categorized and what the operator would see. This is a visual shell for showing scenarios, sensor coverage and camera beams. It does not run our current ML model and the calls are scripted from an earlier prototype.</p>
 </header>
 <main>
   <section>
@@ -132,7 +132,7 @@
     <div class="verdict" id="verdict"><div class="big">No tracks yet</div></div>
     <h2 class="gap">Tracks</h2>
     <div class="scroll"><table>
-      <thead><tr><th>#</th><th>Seen by</th><th>Model call</th><th>Sure</th><th>Status</th><th>Group</th><th>Range</th><th>Alt</th><th>To bowl</th></tr></thead>
+      <thead><tr><th>#</th><th>Seen by</th><th>Category</th><th>Status</th><th>Group</th><th>Range</th><th>Alt</th><th>To bowl</th></tr></thead>
       <tbody id="rows"></tbody>
     </table></div>
     <h2 class="gap">Cameras (one target each)</h2>
@@ -141,7 +141,7 @@
     <div id="groups" class="groups"></div>
     <h2 class="gap">Event log</h2>
     <ul id="log"></ul>
-    <p class="note">Simulated flights and assumed sensor performance. Model calls were produced by the trained model on these exact runs and are replayed here. A call must persist 2 s to step up in concern and 8 s to step down. Status is what the operator gets: a threat call only becomes an ALARM once it is a confirmed drone (camera, rotor signature or drone radio) and urgent (over the bowl, within 600 m, or under 2 minutes away); until then it shows as confirming. Six sites: four stadium corner roofs (camera + RF sensor) and the Central Campus and West Campus garage roofs (radar + camera + RF sensor). The six cameras are shared: each looks at one drone at a time, assigned by urgency, and only where it has a clear line of sight; none of these cases were used in training. "New type" marks scenario types the model never saw at all. Line of sight for every sensor uses our FreeCAD stadium model and campus buildings from OpenStreetMap (most heights estimated from floor counts; trees not included).</p>
+    <p class="note">Simulated flights and assumed sensor performance. Track calls are scripted from an earlier prototype and replayed here for display only, they are not results from our current classifier. A call must persist 2 s to step up in concern and 8 s to step down. Status is what the operator gets: a threat call only becomes an ALARM once it is a confirmed drone (camera, rotor signature or drone radio) and urgent (over the bowl, within 600 m, or under 2 minutes away); until then it shows as confirming. Six sites: four stadium corner roofs (camera + RF sensor) and the Central Campus and West Campus garage roofs (radar + camera + RF sensor). The six cameras are shared: each looks at one drone at a time, assigned by urgency, and only where it has a clear line of sight. Line of sight for every sensor uses our FreeCAD stadium model and campus buildings from OpenStreetMap (most heights estimated from floor counts; trees not included).</p>
   </section>
 </main>
 
@@ -494,7 +494,7 @@ function panel() {
     if (t < tr.first || !alive(tr, t)) return;
     const lab = label(tr, t), p = posAt(tr, t), rng = p ? Math.round(Math.hypot(p[0], p[1])) : null, ttb = tr.ttb[t];
     rows.push(`<tr><td>${idOf(tr, t)}</td><td>${seenBy(tr, t).join(", ") || "lost"}</td><td><span class="dot" style="background:${COL[lab || "none"]}"></span>${lab ? NAMES[lab] : "Collecting data"}</td>` +
-      `<td class="num">${lab ? tr.conf[t] + "%" : ""}</td><td${status(tr, t, lab).startsWith("ALARM") ? ' style="color:var(--threat);font-weight:700"' : ""}>${status(tr, t, lab)}</td><td>${tr.grp && tr.grp[t] ? "G" + tr.grp[t] : ""}</td><td class="num">${rng === null ? "" : rng + " m"}</td><td class="num">${tr.tz[t] === null ? "" : tr.tz[t] + " m"}</td><td class="num">${!ttb ? "" : ttb + " s"}</td></tr>`);
+      `<td${status(tr, t, lab).startsWith("ALARM") ? ' style="color:var(--threat);font-weight:700"' : ""}>${status(tr, t, lab)}</td><td>${tr.grp && tr.grp[t] ? "G" + tr.grp[t] : ""}</td><td class="num">${rng === null ? "" : rng + " m"}</td><td class="num">${tr.tz[t] === null ? "" : tr.tz[t] + " m"}</td><td class="num">${!ttb ? "" : ttb + " s"}</td></tr>`);
     if (lab && (!worst || RANK[lab] > RANK[worst.lab] || (RANK[lab] === RANK[worst.lab] && (rng ?? 1e9) < (worst.rng ?? 1e9)))) worst = { lab, i, id: idOf(tr, t), rng, conf: tr.conf[t], ttb, st: status(tr, t, lab), rev: tr.rev && tr.rev[t] };
   });
   const any = c.tracks.some(tr => t >= tr.first);
@@ -504,7 +504,7 @@ function panel() {
   else {
     v.className = "verdict " + worst.lab;
     const eta = worst.ttb ? `, about ${worst.ttb} s from the bowl` : "";
-    v.innerHTML = `<div class="big">${NAMES[worst.lab]}</div><div>Track ${worst.id}, ${worst.conf}% sure, ${worst.rng} m from midfield${eta}</div>` + (worst.st ? `<div><b>Operator status: ${worst.st}</b></div>` : "");
+    v.innerHTML = `<div class="big">${NAMES[worst.lab]}</div><div>Track ${worst.id}, ${worst.rng} m from midfield${eta}</div>` + (worst.st ? `<div><b>Operator status: ${worst.st}</b></div>` : "");
   }
   const gs = groupsAt(c, t);
   $("groups").innerHTML = gs.length ? gs.map(g => {
@@ -580,7 +580,7 @@ function events(c) {   // first detection, camera look, each settled change of t
     }
     if (tr.rev) {   // review flags, logged when they start and hold 2 s
       let pr = 0;
-      for (let k = 0; k + 1 < D.T; k++) { const v = tr.rev[k]; if (v && !pr && tr.rev[k + 1]) ev.push([k, `Track ${idOf(tr, k)}: flagged for human review (${tr.conf[k] && tr.conf[k] < 60 ? "model only " + tr.conf[k] + "% sure" : "possible duplicate or sensors disagree"})`]); pr = v; }
+      for (let k = 0; k + 1 < D.T; k++) { const v = tr.rev[k]; if (v && !pr && tr.rev[k + 1]) ev.push([k, `Track ${idOf(tr, k)}: flagged for human review (${tr.conf[k] && tr.conf[k] < 60 ? "low confidence" : "possible duplicate or sensors disagree"})`]); pr = v; }
     }
     if (tr.asg) {   // camera timing: queued -> assigned -> identified
       const a0 = tr.asg.findIndex(v => v), c0 = tr.cid ? tr.cid.findIndex(v => v) : -1;
@@ -590,7 +590,7 @@ function events(c) {   // first detection, camera look, each settled change of t
     for (let k = tr.first; k < D.T; k++) {
       const p = tr.pred[k]; if (p < 0) continue;
       if (p !== prev) since = k;
-      if (k - since === 2 && p !== shown) { ev.push([k, `Track ${idOf(tr, k)}: model calls it ${NAMES[D.labels[p]].toLowerCase()}`]); shown = p; }
+      if (k - since === 2 && p !== shown) { ev.push([k, `Track ${idOf(tr, k)}: categorized as ${NAMES[D.labels[p]].toLowerCase()}`]); shown = p; }
       prev = p;
     }
   });
@@ -666,7 +666,7 @@ function pick(i) {
   $("meta").innerHTML = `Correct answer: <b style="color:${COL[c.expected]}">${NAMES[c.expected]}</b>${many}<br>` +
     `${c.phase.replace(/_/g, " ")}, ${c.lighting}, ${c.weather}. Control link: ${c.rf_link === "True" ? "yes" : "no"}. Remote ID: ${c.remote_id.replace(/_/g, " ")}. ` +
     `On approved list: ${c.on_list === "True" ? "yes" : c.on_list === "False" ? "no" : c.on_list.replace(/_/g, " ")}.` +
-    (c.held ? `<br><b>New type:</b> the model never trained on this kind of scenario.` : "");
+    "";
   render();
 }
 function challenge() {
@@ -694,7 +694,7 @@ async function start() {
   D = JSON.parse(await new Response(new Blob([bin]).stream().pipeThrough(new DecompressionStream("gzip"))).text());
   $("cond").innerHTML = Object.entries(D.conds).map(([k, v]) => `<option value="${k}">${v}</option>`).join("");
   $("chalnote").textContent = `Each click draws a random, uncurated run under that condition, from about ${Math.round(D.pool.length / Object.keys(D.conds).length)} pre-generated per condition (not hand-picked).`;
-$("list").innerHTML = D.cases.map((c, i) => `<li><button data-i="${i}" style="border-left-color:${COL[c.expected]}">${c.name}<small>${NAMES[c.expected]}${c.held ? " · new type" : ""}</small></button></li>`).join("");
+$("list").innerHTML = D.cases.map((c, i) => `<li><button data-i="${i}" style="border-left-color:${COL[c.expected]}">${c.name}<small>${NAMES[c.expected]}</small></button></li>`).join("");
 $("list").addEventListener("click", e => { const b = e.target.closest("button"); if (b) pick(+b.dataset.i); });
 $("play").addEventListener("click", () => { if (!playing && t >= endT) seek(0); setPlay(!playing); });
 $("restart").addEventListener("click", () => seek(0));
