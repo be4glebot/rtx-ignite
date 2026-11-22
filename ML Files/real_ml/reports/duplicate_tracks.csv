@@ -1,0 +1,16 @@
+track_uid,source_file,reason,retained_source
+NRC:20201109_session_unknown:R1:6,data/Demo-7/DRONE_Id_06.csv,duplicate_track,data/Demo-1/DRONE_Id_06.csv
+NRC:20201109_session_unknown:R1:688,data/Demo-7/DRONE_Id_688.csv,duplicate_track,data/Demo-1/DRONE_Id_688.csv
+NRC:20201218T112525:R1:189,data/Demo-7/Echodyne_Log_20201218_112525_UAV_189.csv,duplicate_track,data/Demo-3/Echodyne_Log_20201218_112525.xlsx
+NRC:20201218T112525:R1:59,data/Demo-7/Echodyne_Log_20201218_112525_UAV_59.csv,duplicate_track,data/Demo-3/Echodyne_Log_20201218_112525.xlsx
+NRC:20210226T111823:R1:1073,data/Demo-7/Echodyne_Log_20210226_111823_UAV_1073.csv,duplicate_track,data/Demo-4/Echodyne_Log_20210226_111823_UAV_1073.csv
+NRC:20210226T111823:R1:108,data/Demo-7/Echodyne_Log_20210226_111823_UAV_108.csv,duplicate_track,data/Demo-4/Echodyne_Log_20210226_111823_UAV_108.csv
+NRC:20210226T121014:R1:1371,data/Demo-7/Echodyne_Log_20210226_121014_UAV_1371.csv,duplicate_track,data/Demo-4/Echodyne_Log_20210226_121014_UAV_1371.csv
+NRC:20210226T121014:R1:1437,data/Demo-7/Echodyne_Log_20210226_121014_UAV_1437.csv,duplicate_track,data/Demo-4/Echodyne_Log_20210226_121014_UAV_1437.csv
+NRC:20210226T121014:R1:661,data/Demo-7/Echodyne_Log_20210226_121014_UAV_661.csv,duplicate_track,data/Demo-4/Echodyne_Log_20210226_121014_UAV_661.csv
+NRC:20210226T142133:R1:3787,data/Demo-7/Echodyne_Log_20210226_142133_UAV_3787.csv,duplicate_track,data/Demo-4/Echodyne_Log_20210226_142133_UAV_3787.csv
+NRC:20210226T142133:R1:4427,data/Demo-7/Echodyne_Log_20210226_142133_UAV_4427.csv,duplicate_track,data/Demo-4/Echodyne_Log_20210226_142133_UAV_4427.csv
+NRC:20210318T102509:R1:1,data/Demo-7/Echodyne_Log_20210318_102509_UAV_1.csv,duplicate_track,data/Demo-6/Echodyne_Log_20210318_102509.xlsx
+NRC:20210318T105543:R1:196,data/Demo-7/Echodyne_Log_20210318_105543_UAV_196.csv,duplicate_track,data/Demo-6/Echodyne_Log_20210318_105543.xlsx
+NRC:20210318T105543:R1:95,data/Demo-7/Echodyne_Log_20210318_105543_UAV_95.csv,duplicate_track,data/Demo-6/Echodyne_Log_20210318_105543.xlsx
+NRC:20210318T120554:R1:138,data/Demo-7/Echodyne_Log_20210318_120554_UAV_138.csv,duplicate_track,data/Demo-6/Echodyne_Log_20210318_120554.xlsx

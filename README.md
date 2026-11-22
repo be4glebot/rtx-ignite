@@ -26,6 +26,11 @@ Team entry for the **2026 RTX Ignite Design Challenge**: a portable detection an
 
 ## Running the ML pipeline
 
+For the independent **real-world radar data pipeline (Phase 1)**, see
+[`ML Files/real_ml/README.md`](ML%20Files/real_ml/README.md). It validates NRC
+measurements and prepares object-classification features without training a model
+or inferring intent. The simulation commands below are preserved for reference.
+
 ```bash
 cd "ML Files"
 pip install -r requirements.txt

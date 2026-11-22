@@ -1,0 +1,80 @@
+column,unit,description
+track_uid,n/a,Globally unique NRC recording/radar/system-track key; never a feature
+recording_session,n/a,"Recording start, shared across radars; split group, never a feature"
+recording_day,n/a,"Trial day; stronger split group, never a feature"
+radar_id,n/a,"Radar unit within recording; provenance, never a feature"
+system_track_id,n/a,"SystemTrackID (not sensor id); provenance, never a feature"
+label,n/a,"Verified expert object class; supervised target, never an input"
+source_file,n/a,"Preferred source path; provenance, never a feature"
+source_format,n/a,"Preferred source format; provenance, never a feature"
+n_observations,count,Retained updates; candidate feature subject to acquisition-duration bias
+azimuth_mean,deg,azimuth: Arithmetic mean of valid observations
+azimuth_std,deg,azimuth: Population standard deviation (ddof=0)
+azimuth_min,deg,azimuth: Minimum valid measurement
+azimuth_max,deg,azimuth: Maximum valid measurement
+azimuth_range,deg,azimuth: Maximum minus minimum valid measurement
+azimuth_missing_rate,fraction,azimuth: Missing or invalid / retained observations
+azimuth_n_valid,count,azimuth: Number of valid measurements
+elevation_mean,deg,elevation: Arithmetic mean of valid observations
+elevation_std,deg,elevation: Population standard deviation (ddof=0)
+elevation_min,deg,elevation: Minimum valid measurement
+elevation_max,deg,elevation: Maximum valid measurement
+elevation_range,deg,elevation: Maximum minus minimum valid measurement
+elevation_missing_rate,fraction,elevation: Missing or invalid / retained observations
+elevation_n_valid,count,elevation: Number of valid measurements
+range_mean,m,range: Arithmetic mean of valid observations
+range_std,m,range: Population standard deviation (ddof=0)
+range_min,m,range: Minimum valid measurement
+range_max,m,range: Maximum valid measurement
+range_range,m,range: Maximum minus minimum valid measurement
+range_missing_rate,fraction,range: Missing or invalid / retained observations
+range_n_valid,count,range: Number of valid measurements
+posX_mean,m,posX: Arithmetic mean of valid observations
+posX_std,m,posX: Population standard deviation (ddof=0)
+posX_min,m,posX: Minimum valid measurement
+posX_max,m,posX: Maximum valid measurement
+posX_range,m,posX: Maximum minus minimum valid measurement
+posX_missing_rate,fraction,posX: Missing or invalid / retained observations
+posX_n_valid,count,posX: Number of valid measurements
+posY_mean,m,posY: Arithmetic mean of valid observations
+posY_std,m,posY: Population standard deviation (ddof=0)
+posY_min,m,posY: Minimum valid measurement
+posY_max,m,posY: Maximum valid measurement
+posY_range,m,posY: Maximum minus minimum valid measurement
+posY_missing_rate,fraction,posY: Missing or invalid / retained observations
+posY_n_valid,count,posY: Number of valid measurements
+posZ_mean,m,posZ: Arithmetic mean of valid observations
+posZ_std,m,posZ: Population standard deviation (ddof=0)
+posZ_min,m,posZ: Minimum valid measurement
+posZ_max,m,posZ: Maximum valid measurement
+posZ_range,m,posZ: Maximum minus minimum valid measurement
+posZ_missing_rate,fraction,posZ: Missing or invalid / retained observations
+posZ_n_valid,count,posZ: Number of valid measurements
+veloX_mean,m/s,veloX: Arithmetic mean of valid observations
+veloX_std,m/s,veloX: Population standard deviation (ddof=0)
+veloX_min,m/s,veloX: Minimum valid measurement
+veloX_max,m/s,veloX: Maximum valid measurement
+veloX_range,m/s,veloX: Maximum minus minimum valid measurement
+veloX_missing_rate,fraction,veloX: Missing or invalid / retained observations
+veloX_n_valid,count,veloX: Number of valid measurements
+veloY_mean,m/s,veloY: Arithmetic mean of valid observations
+veloY_std,m/s,veloY: Population standard deviation (ddof=0)
+veloY_min,m/s,veloY: Minimum valid measurement
+veloY_max,m/s,veloY: Maximum valid measurement
+veloY_range,m/s,veloY: Maximum minus minimum valid measurement
+veloY_missing_rate,fraction,veloY: Missing or invalid / retained observations
+veloY_n_valid,count,veloY: Number of valid measurements
+veloZ_mean,m/s,veloZ: Arithmetic mean of valid observations
+veloZ_std,m/s,veloZ: Population standard deviation (ddof=0)
+veloZ_min,m/s,veloZ: Minimum valid measurement
+veloZ_max,m/s,veloZ: Maximum valid measurement
+veloZ_range,m/s,veloZ: Maximum minus minimum valid measurement
+veloZ_missing_rate,fraction,veloZ: Missing or invalid / retained observations
+veloZ_n_valid,count,veloZ: Number of valid measurements
+rcs_mean,dBsm,rcs: Arithmetic mean of valid observations
+rcs_std,dBsm,rcs: Population standard deviation (ddof=0)
+rcs_min,dBsm,rcs: Minimum valid measurement
+rcs_max,dBsm,rcs: Maximum valid measurement
+rcs_range,dBsm,rcs: Maximum minus minimum valid measurement
+rcs_missing_rate,fraction,rcs: Missing or invalid / retained observations
+rcs_n_valid,count,rcs: Number of valid measurements

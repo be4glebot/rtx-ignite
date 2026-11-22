@@ -1,0 +1,11 @@
+measurement,observation_missing_rate,tracks_without_measurement
+azimuth,0.0,0
+elevation,0.0,0
+range,0.0,0
+posX,0.0,0
+posY,0.0,0
+posZ,0.0,0
+veloX,0.0,0
+veloY,0.0,0
+veloZ,0.0,0
+rcs,0.011290832225587799,90

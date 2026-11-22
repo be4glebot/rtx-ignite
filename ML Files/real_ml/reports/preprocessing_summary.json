@@ -1,0 +1,23 @@
+{
+  "revision": "df3cebae895f4f12d23cd50480dd4c47b09d422e",
+  "source_files": 81,
+  "metadata_label_rows": 1117,
+  "usable_tracks": 713,
+  "usable_observations": 367112,
+  "recording_sessions": 51,
+  "classes": {
+    "BIRD": 492,
+    "HUMAN": 63,
+    "UAV": 146,
+    "VEHICLE": 12
+  },
+  "duplicate_track_representations": 15,
+  "exclusion_reasons": {
+    "unlabeled": 1284,
+    "mixed": 376,
+    "invalid_track_id_rows": 40,
+    "label_without_observations": 4,
+    "unknown": 3,
+    "ambiguous_raw_label": 1
+  }
+}
